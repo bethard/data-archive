@@ -1,0 +1,2897 @@
+<annotations>
+<!-- 
+This is a stand-off markup that identifies opinions and opinion holders by
+describing their location in FrameNet annotation sets. To use this data,
+you will need to obtain a recent copy of FrameNet:
+
+    http://framenet.icsi.berkeley.edu/
+
+Each annotation gives a few attributes that may be useful for identifying
+the annotation in a FrameNet lu*.xml file:
+
+    lexunit-annotation-id - the ID attribute of lexunit-annotation (root)
+    annotation-set-id - the ID attribute of the annotationSet element
+    sentence-apos - the aPos attribute of the sentence element
+
+Each element within the annotation indicates the target, opinion or
+opinion holder frame element:
+
+    label-id - the ID attribute of label element corresponding to the
+        target, opinion or opinion holder span. The label will either be
+        in the Target layer element, for the target, or in the FE layer
+        element, for the opinion or opinion holder
+ -->
+<annotation annotation-set-id="219389" lexunit-annotation-id="11024" sentence-apos="80983314">
+<target label-id="7138874" />
+<opinion label-id="7233940" />
+</annotation>
+<annotation annotation-set-id="1759150" lexunit-annotation-id="12729" sentence-apos="36831978">
+<target label-id="28634498" />
+<opinion label-id="28634494" />
+<holder label-id="28634500" />
+</annotation>
+<annotation annotation-set-id="1759152" lexunit-annotation-id="12729" sentence-apos="36868896">
+<target label-id="28634567" />
+<opinion label-id="28634563" />
+<holder label-id="28634569" />
+</annotation>
+<annotation annotation-set-id="1742729" lexunit-annotation-id="12733" sentence-apos="11211150">
+<target label-id="28433030" />
+<opinion label-id="28433038" />
+<holder label-id="28433025" />
+</annotation>
+<annotation annotation-set-id="1742737" lexunit-annotation-id="12733" sentence-apos="1653096">
+<target label-id="28433160" />
+<opinion label-id="28433166" />
+<holder label-id="28433154" />
+</annotation>
+<annotation annotation-set-id="1742755" lexunit-annotation-id="12733" sentence-apos="108225310">
+<target label-id="28433423" />
+<opinion label-id="28433433" />
+<holder label-id="28433419" />
+</annotation>
+<annotation annotation-set-id="1742775" lexunit-annotation-id="12733" sentence-apos="24980846">
+<target label-id="28433682" />
+<opinion label-id="28433697" />
+<holder label-id="28433702" />
+</annotation>
+<annotation annotation-set-id="1742777" lexunit-annotation-id="12733" sentence-apos="16337561">
+<target label-id="28433743" />
+<opinion label-id="28433748" />
+<holder label-id="28433726" />
+</annotation>
+<annotation annotation-set-id="1742781" lexunit-annotation-id="12733" sentence-apos="12378416">
+<target label-id="28433804" />
+<opinion label-id="28433808" />
+<holder label-id="28433800" />
+</annotation>
+<annotation annotation-set-id="1742795" lexunit-annotation-id="12733" sentence-apos="23739200">
+<target label-id="28434038" />
+<opinion label-id="28434053" />
+<holder label-id="28434033" />
+</annotation>
+<annotation annotation-set-id="1742803" lexunit-annotation-id="12733" sentence-apos="5065607">
+<target label-id="28434184" />
+<opinion label-id="28434187" />
+<holder label-id="28434179" />
+</annotation>
+<annotation annotation-set-id="1742807" lexunit-annotation-id="12733" sentence-apos="70211362">
+<target label-id="28434243" />
+<opinion label-id="28434263" />
+<holder label-id="28434239" />
+</annotation>
+<annotation annotation-set-id="1742823" lexunit-annotation-id="12733" sentence-apos="14012819">
+<target label-id="28434453" />
+<opinion label-id="28434463" />
+<holder label-id="28434449" />
+</annotation>
+<annotation annotation-set-id="1742825" lexunit-annotation-id="12733" sentence-apos="105781471">
+<target label-id="28434477" />
+<opinion label-id="28434501" />
+<holder label-id="28434472" />
+</annotation>
+<annotation annotation-set-id="1742895" lexunit-annotation-id="12733" sentence-apos="52231085">
+<target label-id="28435411" />
+<opinion label-id="28435421" />
+<holder label-id="28435400" />
+</annotation>
+<annotation annotation-set-id="1742915" lexunit-annotation-id="12733" sentence-apos="19628540">
+<target label-id="28435689" />
+<opinion label-id="28435699" />
+<holder label-id="28435674" />
+</annotation>
+<annotation annotation-set-id="1742979" lexunit-annotation-id="12733" sentence-apos="106325516">
+<target label-id="28436672" />
+<opinion label-id="28436679" />
+<holder label-id="28436666" />
+</annotation>
+<annotation annotation-set-id="1742981" lexunit-annotation-id="12733" sentence-apos="2254475">
+<target label-id="28436710" />
+<opinion label-id="28436732" />
+<holder label-id="28436701" />
+</annotation>
+<annotation annotation-set-id="1742989" lexunit-annotation-id="12733" sentence-apos="20557970">
+<target label-id="28436821" />
+<opinion label-id="28436842" />
+<holder label-id="28436814" />
+</annotation>
+<annotation annotation-set-id="1742993" lexunit-annotation-id="12733" sentence-apos="105143582">
+<target label-id="28436879" />
+<opinion label-id="28436885" />
+<holder label-id="28436863" />
+</annotation>
+<annotation annotation-set-id="1743001" lexunit-annotation-id="12733" sentence-apos="106859028">
+<target label-id="28437005" />
+<opinion label-id="28437039" />
+<holder label-id="28436986" />
+</annotation>
+<annotation annotation-set-id="1743029" lexunit-annotation-id="12733" sentence-apos="106796673">
+<target label-id="28437412" />
+<opinion label-id="28437429" />
+</annotation>
+<annotation annotation-set-id="1743073" lexunit-annotation-id="12733" sentence-apos="31160331">
+<target label-id="28437987" />
+<opinion label-id="28437996" />
+<holder label-id="28437983" />
+</annotation>
+<annotation annotation-set-id="1743077" lexunit-annotation-id="12733" sentence-apos="48964808">
+<target label-id="28438022" />
+<opinion label-id="28438025" />
+<holder label-id="28438013" />
+</annotation>
+<annotation annotation-set-id="1743079" lexunit-annotation-id="12733" sentence-apos="23770254">
+<target label-id="28438061" />
+<opinion label-id="28438066" />
+<holder label-id="28438057" />
+</annotation>
+<annotation annotation-set-id="1743111" lexunit-annotation-id="12733" sentence-apos="30920261">
+<target label-id="28438488" />
+<opinion label-id="28438493" />
+<holder label-id="28438474" />
+</annotation>
+<annotation annotation-set-id="1743119" lexunit-annotation-id="12733" sentence-apos="106775565">
+<target label-id="28438560" />
+<opinion label-id="28438565" />
+<holder label-id="28438555" />
+</annotation>
+<annotation annotation-set-id="1743133" lexunit-annotation-id="12733" sentence-apos="106510977">
+<target label-id="28438785" />
+<opinion label-id="28438798" />
+<holder label-id="28438777" />
+</annotation>
+<annotation annotation-set-id="1743151" lexunit-annotation-id="12733" sentence-apos="77708777">
+<target label-id="28439051" />
+<opinion label-id="28439065" />
+<holder label-id="28439047" />
+</annotation>
+<annotation annotation-set-id="1743159" lexunit-annotation-id="12733" sentence-apos="46459879">
+<target label-id="28439138" />
+<opinion label-id="28439145" />
+<holder label-id="28439130" />
+</annotation>
+<annotation annotation-set-id="1743215" lexunit-annotation-id="12733" sentence-apos="41458261">
+<target label-id="28439994" />
+<opinion label-id="28440013" />
+<holder label-id="28439989" />
+</annotation>
+<annotation annotation-set-id="1743269" lexunit-annotation-id="12733" sentence-apos="2011356">
+<target label-id="28440682" />
+<opinion label-id="28440696" />
+</annotation>
+<annotation annotation-set-id="1743303" lexunit-annotation-id="12733" sentence-apos="83072453">
+<target label-id="28441134" />
+<opinion label-id="28441148" />
+</annotation>
+<annotation annotation-set-id="1743331" lexunit-annotation-id="12733" sentence-apos="104790736">
+<target label-id="28441480" />
+<opinion label-id="28441494" />
+</annotation>
+<annotation annotation-set-id="1743459" lexunit-annotation-id="12733" sentence-apos="108523348">
+<target label-id="28443237" />
+<opinion label-id="28443257" />
+<holder label-id="28443233" />
+</annotation>
+<annotation annotation-set-id="1743467" lexunit-annotation-id="12733" sentence-apos="20560708">
+<target label-id="28443366" />
+<opinion label-id="28443389" />
+<holder label-id="28443362" />
+</annotation>
+<annotation annotation-set-id="1746047" lexunit-annotation-id="12734" sentence-apos="53393274">
+<target label-id="28477043" />
+<opinion label-id="28477057" />
+</annotation>
+<annotation annotation-set-id="1746077" lexunit-annotation-id="12734" sentence-apos="73782580">
+<target label-id="28477414" />
+<opinion label-id="28477430" />
+<holder label-id="28477409" />
+</annotation>
+<annotation annotation-set-id="1746081" lexunit-annotation-id="12734" sentence-apos="78230370">
+<target label-id="28477470" />
+<opinion label-id="28477477" />
+<holder label-id="28477454" />
+</annotation>
+<annotation annotation-set-id="1746103" lexunit-annotation-id="12734" sentence-apos="105354667">
+<target label-id="28477813" />
+<opinion label-id="28477824" />
+<holder label-id="28477802" />
+</annotation>
+<annotation annotation-set-id="1746111" lexunit-annotation-id="12734" sentence-apos="31101695">
+<target label-id="28477922" />
+<opinion label-id="28477930" />
+<holder label-id="28477917" />
+</annotation>
+<annotation annotation-set-id="1746129" lexunit-annotation-id="12734" sentence-apos="86331410">
+<target label-id="28478183" />
+<opinion label-id="28478189" />
+<holder label-id="28478179" />
+</annotation>
+<annotation annotation-set-id="1746137" lexunit-annotation-id="12734" sentence-apos="74533153">
+<target label-id="28478323" />
+<opinion label-id="28478332" />
+<holder label-id="28478319" />
+</annotation>
+<annotation annotation-set-id="1746139" lexunit-annotation-id="12734" sentence-apos="82752938">
+<target label-id="28478368" />
+<opinion label-id="28478383" />
+<holder label-id="28478363" />
+</annotation>
+<annotation annotation-set-id="1746157" lexunit-annotation-id="12734" sentence-apos="41169751">
+<target label-id="28478643" />
+<opinion label-id="28478652" />
+<holder label-id="28478638" />
+</annotation>
+<annotation annotation-set-id="1746203" lexunit-annotation-id="12734" sentence-apos="3258073">
+<target label-id="28479320" />
+<opinion label-id="28479315" />
+<holder label-id="28479332" />
+</annotation>
+<annotation annotation-set-id="1746209" lexunit-annotation-id="12734" sentence-apos="50563255">
+<target label-id="28479403" />
+<opinion label-id="28479398" />
+<holder label-id="28479420" />
+</annotation>
+<annotation annotation-set-id="1746239" lexunit-annotation-id="12734" sentence-apos="106241612">
+<target label-id="28479818" />
+<opinion label-id="28479830" />
+<holder label-id="28479814" />
+</annotation>
+<annotation annotation-set-id="1746251" lexunit-annotation-id="12734" sentence-apos="106896477">
+<target label-id="28480013" />
+<opinion label-id="28480024" />
+<holder label-id="28480008" />
+</annotation>
+<annotation annotation-set-id="1746257" lexunit-annotation-id="12734" sentence-apos="103837426">
+<target label-id="28480068" />
+<opinion label-id="28480086" />
+</annotation>
+<annotation annotation-set-id="1746271" lexunit-annotation-id="12734" sentence-apos="20047724">
+<target label-id="28480263" />
+<opinion label-id="28480274" />
+<holder label-id="28480258" />
+</annotation>
+<annotation annotation-set-id="1746287" lexunit-annotation-id="12734" sentence-apos="52545046">
+<target label-id="28480456" />
+<opinion label-id="28480460" />
+<holder label-id="28480439" />
+</annotation>
+<annotation annotation-set-id="483030" lexunit-annotation-id="12749" sentence-apos="31693620">
+<target label-id="10470481" />
+<opinion label-id="10470490" />
+<holder label-id="10470477" />
+</annotation>
+<annotation annotation-set-id="483052" lexunit-annotation-id="12749" sentence-apos="19005156">
+<target label-id="10470819" />
+<opinion label-id="10470827" />
+<holder label-id="10470776" />
+</annotation>
+<annotation annotation-set-id="483056" lexunit-annotation-id="12749" sentence-apos="40437601">
+<target label-id="10470865" />
+</annotation>
+<annotation annotation-set-id="950489" lexunit-annotation-id="13002" sentence-apos="23671576">
+<target label-id="18576425" />
+<opinion label-id="18576417" />
+<holder label-id="18576421" />
+</annotation>
+<annotation annotation-set-id="950491" lexunit-annotation-id="13002" sentence-apos="26829857">
+<target label-id="18576451" />
+<opinion label-id="18576442" />
+<holder label-id="18576447" />
+</annotation>
+<annotation annotation-set-id="950493" lexunit-annotation-id="13002" sentence-apos="27871622">
+<target label-id="18576468" />
+<opinion label-id="18576460" />
+<holder label-id="18576464" />
+</annotation>
+<annotation annotation-set-id="950567" lexunit-annotation-id="13002" sentence-apos="3843142">
+<target label-id="18577235" />
+<opinion label-id="18577243" />
+<holder label-id="18577231" />
+</annotation>
+<annotation annotation-set-id="950577" lexunit-annotation-id="13002" sentence-apos="9101758">
+<target label-id="18577378" />
+<opinion label-id="18577404" />
+<holder label-id="18577374" />
+</annotation>
+<annotation annotation-set-id="950587" lexunit-annotation-id="13002" sentence-apos="30875679">
+<target label-id="18577529" />
+<opinion label-id="18577535" />
+<holder label-id="18577524" />
+</annotation>
+<annotation annotation-set-id="950595" lexunit-annotation-id="13002" sentence-apos="94590854">
+<target label-id="18577629" />
+<opinion label-id="18577639" />
+<holder label-id="18577619" />
+</annotation>
+<annotation annotation-set-id="950653" lexunit-annotation-id="13002" sentence-apos="11139566">
+<target label-id="18578345" />
+<opinion label-id="18578347" />
+<holder label-id="18578341" />
+</annotation>
+<annotation annotation-set-id="950719" lexunit-annotation-id="13002" sentence-apos="41262636">
+<target label-id="18579102" />
+<opinion label-id="18579124" />
+<holder label-id="18579088" />
+</annotation>
+<annotation annotation-set-id="950725" lexunit-annotation-id="13002" sentence-apos="10430554">
+<target label-id="18579184" />
+</annotation>
+<annotation annotation-set-id="295219" lexunit-annotation-id="150" sentence-apos="72764704">
+<target label-id="8133261" />
+</annotation>
+<annotation annotation-set-id="295237" lexunit-annotation-id="150" sentence-apos="58334109">
+<target label-id="8133438" />
+<opinion label-id="8133440" />
+<holder label-id="8133434" />
+</annotation>
+<annotation annotation-set-id="295241" lexunit-annotation-id="150" sentence-apos="47353773">
+<target label-id="8133485" />
+<opinion label-id="8133505" />
+<holder label-id="8133479" />
+</annotation>
+<annotation annotation-set-id="295245" lexunit-annotation-id="150" sentence-apos="31907113">
+<target label-id="8133540" />
+<opinion label-id="8133548" />
+<holder label-id="8133536" />
+</annotation>
+<annotation annotation-set-id="295247" lexunit-annotation-id="150" sentence-apos="18692811">
+<target label-id="8133567" />
+<opinion label-id="8133594" />
+<holder label-id="8133563" />
+</annotation>
+<annotation annotation-set-id="295249" lexunit-annotation-id="150" sentence-apos="102237887">
+<target label-id="8133615" />
+<opinion label-id="8133622" />
+<holder label-id="8133611" />
+</annotation>
+<annotation annotation-set-id="295263" lexunit-annotation-id="150" sentence-apos="91493370">
+<target label-id="8133780" />
+<opinion label-id="8133788" />
+</annotation>
+<annotation annotation-set-id="295279" lexunit-annotation-id="150" sentence-apos="106029496">
+<target label-id="8134012" />
+<opinion label-id="8134036" />
+<holder label-id="8134015" />
+</annotation>
+<annotation annotation-set-id="295285" lexunit-annotation-id="150" sentence-apos="89533992">
+<target label-id="8134097" />
+<opinion label-id="8134107" />
+<holder label-id="8134093" />
+</annotation>
+<annotation annotation-set-id="295289" lexunit-annotation-id="150" sentence-apos="25706750">
+<target label-id="8134157" />
+</annotation>
+<annotation annotation-set-id="295335" lexunit-annotation-id="150" sentence-apos="32601153">
+<target label-id="8134698" />
+<opinion label-id="8134706" />
+<holder label-id="8134692" />
+</annotation>
+<annotation annotation-set-id="295349" lexunit-annotation-id="150" sentence-apos="27421432">
+<target label-id="8134881" />
+<opinion label-id="8134886" />
+<holder label-id="8134877" />
+</annotation>
+<annotation annotation-set-id="295351" lexunit-annotation-id="150" sentence-apos="102490414">
+<target label-id="8134915" />
+<opinion label-id="8134924" />
+<holder label-id="8134911" />
+</annotation>
+<annotation annotation-set-id="295355" lexunit-annotation-id="150" sentence-apos="101423548">
+<target label-id="8134971" />
+<opinion label-id="8134978" />
+<holder label-id="8134966" />
+</annotation>
+<annotation annotation-set-id="295363" lexunit-annotation-id="150" sentence-apos="23160741">
+<target label-id="8135061" />
+<opinion label-id="8135075" />
+<holder label-id="8135055" />
+</annotation>
+<annotation annotation-set-id="295385" lexunit-annotation-id="150" sentence-apos="96195778">
+<target label-id="8135390" />
+<opinion label-id="8135383" />
+</annotation>
+<annotation annotation-set-id="295389" lexunit-annotation-id="150" sentence-apos="46838298">
+<target label-id="8135457" />
+<opinion label-id="8135452" />
+<opinion label-id="8135471" />
+</annotation>
+<annotation annotation-set-id="295399" lexunit-annotation-id="150" sentence-apos="108462459">
+<target label-id="8135613" />
+<opinion label-id="8135608" />
+<opinion label-id="8135623" />
+</annotation>
+<annotation annotation-set-id="295407" lexunit-annotation-id="150" sentence-apos="57380506">
+<target label-id="8135735" />
+<opinion label-id="8135750" />
+</annotation>
+<annotation annotation-set-id="295421" lexunit-annotation-id="150" sentence-apos="14285313">
+<target label-id="8135918" />
+<opinion label-id="8135923" />
+<holder label-id="8135913" />
+</annotation>
+<annotation annotation-set-id="295455" lexunit-annotation-id="150" sentence-apos="66216">
+<target label-id="8136285" />
+<opinion label-id="8136296" />
+<holder label-id="8136281" />
+</annotation>
+<annotation annotation-set-id="295461" lexunit-annotation-id="150" sentence-apos="14804158">
+<target label-id="8136357" />
+<opinion label-id="8136377" />
+<holder label-id="8136353" />
+</annotation>
+<annotation annotation-set-id="295473" lexunit-annotation-id="150" sentence-apos="45839030">
+<target label-id="8136529" />
+<opinion label-id="8136540" />
+<holder label-id="8136524" />
+</annotation>
+<annotation annotation-set-id="295475" lexunit-annotation-id="150" sentence-apos="57941794">
+<target label-id="8136553" />
+<opinion label-id="8136568" />
+<holder label-id="8136545" />
+</annotation>
+<annotation annotation-set-id="295487" lexunit-annotation-id="150" sentence-apos="90763084">
+<target label-id="8136689" />
+<opinion label-id="8136701" />
+<holder label-id="8136684" />
+</annotation>
+<annotation annotation-set-id="295533" lexunit-annotation-id="150" sentence-apos="101163988">
+<target label-id="8137270" />
+<opinion label-id="8137272" />
+<opinion label-id="8137280" />
+<holder label-id="8137264" />
+</annotation>
+<annotation annotation-set-id="296253" lexunit-annotation-id="153" sentence-apos="33149943">
+<target label-id="8147012" />
+<opinion label-id="8147030" />
+<holder label-id="8147008" />
+</annotation>
+<annotation annotation-set-id="296555" lexunit-annotation-id="153" sentence-apos="56662580">
+<target label-id="8151211" />
+<opinion label-id="30721829" />
+<holder label-id="8151205" />
+</annotation>
+<annotation annotation-set-id="296637" lexunit-annotation-id="153" sentence-apos="9127264">
+<target label-id="8152278" />
+<opinion label-id="8152290" />
+<holder label-id="8152272" />
+</annotation>
+<annotation annotation-set-id="296655" lexunit-annotation-id="153" sentence-apos="58308670">
+<target label-id="8152516" />
+<opinion label-id="8152530" />
+<holder label-id="8152510" />
+</annotation>
+<annotation annotation-set-id="296707" lexunit-annotation-id="153" sentence-apos="30101351">
+<target label-id="8153182" />
+<opinion label-id="8153192" />
+<holder label-id="8153176" />
+</annotation>
+<annotation annotation-set-id="296719" lexunit-annotation-id="153" sentence-apos="63688209">
+<target label-id="8153368" />
+<opinion label-id="8153376" />
+<holder label-id="8153363" />
+</annotation>
+<annotation annotation-set-id="296815" lexunit-annotation-id="153" sentence-apos="24649843">
+<target label-id="8154633" />
+<opinion label-id="8154642" />
+<holder label-id="8154629" />
+</annotation>
+<annotation annotation-set-id="296825" lexunit-annotation-id="153" sentence-apos="45890266">
+<target label-id="8154763" />
+<opinion label-id="8154770" />
+</annotation>
+<annotation annotation-set-id="297675" lexunit-annotation-id="157" sentence-apos="107599638">
+<target label-id="8166357" />
+<opinion label-id="8166359" />
+<opinion label-id="8166367" />
+<holder label-id="8166351" />
+</annotation>
+<annotation annotation-set-id="297831" lexunit-annotation-id="157" sentence-apos="3330945">
+<target label-id="8168129" />
+<opinion label-id="8168137" />
+<holder label-id="8168123" />
+</annotation>
+<annotation annotation-set-id="298109" lexunit-annotation-id="157" sentence-apos="51096364">
+<target label-id="8171693" />
+<opinion label-id="8171713" />
+</annotation>
+<annotation annotation-set-id="298155" lexunit-annotation-id="157" sentence-apos="59699989">
+<target label-id="8172266" />
+<opinion label-id="8172274" />
+<holder label-id="8172262" />
+</annotation>
+<annotation annotation-set-id="298225" lexunit-annotation-id="157" sentence-apos="15185428">
+<target label-id="8173012" />
+<opinion label-id="8173022" />
+<holder label-id="8173006" />
+</annotation>
+<annotation annotation-set-id="298249" lexunit-annotation-id="157" sentence-apos="79402336">
+<target label-id="8173309" />
+<opinion label-id="8173322" />
+<holder label-id="8173303" />
+</annotation>
+<annotation annotation-set-id="298553" lexunit-annotation-id="160" sentence-apos="11596373">
+<target label-id="8176764" />
+<opinion label-id="8176766" />
+<opinion label-id="8176782" />
+<holder label-id="8176760" />
+</annotation>
+<annotation annotation-set-id="298663" lexunit-annotation-id="160" sentence-apos="66986120">
+<target label-id="8178147" />
+<opinion label-id="8178149" />
+<opinion label-id="8178163" />
+<holder label-id="8178143" />
+</annotation>
+<annotation annotation-set-id="298948" lexunit-annotation-id="160" sentence-apos="19611539">
+<target label-id="8182150" />
+<opinion label-id="8182217" />
+<holder label-id="8182143" />
+</annotation>
+<annotation annotation-set-id="299222" lexunit-annotation-id="160" sentence-apos="75735321">
+<target label-id="8187078" />
+<opinion label-id="8187097" />
+</annotation>
+<annotation annotation-set-id="299408" lexunit-annotation-id="160" sentence-apos="37070196">
+<target label-id="8190390" />
+<opinion label-id="8190420" />
+<holder label-id="8190382" />
+</annotation>
+<annotation annotation-set-id="299635" lexunit-annotation-id="160" sentence-apos="37976583">
+<target label-id="8193443" />
+<opinion label-id="8193450" />
+<holder label-id="8193439" />
+</annotation>
+<annotation annotation-set-id="299823" lexunit-annotation-id="160" sentence-apos="101784412">
+<target label-id="8195927" />
+<opinion label-id="8195947" />
+<holder label-id="8195919" />
+</annotation>
+<annotation annotation-set-id="300535" lexunit-annotation-id="163" sentence-apos="101048680">
+<target label-id="8205243" />
+</annotation>
+<annotation annotation-set-id="300563" lexunit-annotation-id="163" sentence-apos="109084709">
+<target label-id="8205529" />
+<opinion label-id="8205552" />
+<holder label-id="8205514" />
+</annotation>
+<annotation annotation-set-id="300613" lexunit-annotation-id="163" sentence-apos="8071567">
+<target label-id="8206250" />
+<opinion label-id="8206241" />
+</annotation>
+<annotation annotation-set-id="300713" lexunit-annotation-id="163" sentence-apos="61094595">
+<target label-id="8207587" />
+<opinion label-id="8207603" />
+</annotation>
+<annotation annotation-set-id="300753" lexunit-annotation-id="163" sentence-apos="10731959">
+<target label-id="8208195" />
+</annotation>
+<annotation annotation-set-id="300795" lexunit-annotation-id="163" sentence-apos="65239618">
+<target label-id="8208816" />
+<opinion label-id="8208820" />
+<holder label-id="8208810" />
+</annotation>
+<annotation annotation-set-id="300815" lexunit-annotation-id="163" sentence-apos="11160286">
+<target label-id="8209042" />
+<opinion label-id="8209070" />
+<holder label-id="8209038" />
+</annotation>
+<annotation annotation-set-id="300843" lexunit-annotation-id="163" sentence-apos="106738014">
+<target label-id="8209450" />
+<opinion label-id="8209458" />
+<holder label-id="8209440" />
+</annotation>
+<annotation annotation-set-id="300891" lexunit-annotation-id="163" sentence-apos="65093118">
+<target label-id="8210104" />
+<opinion label-id="8210128" />
+<holder label-id="8210092" />
+</annotation>
+<annotation annotation-set-id="300955" lexunit-annotation-id="163" sentence-apos="101785106">
+<target label-id="8211110" />
+<opinion label-id="8211125" />
+<holder label-id="8211103" />
+</annotation>
+<annotation annotation-set-id="301025" lexunit-annotation-id="163" sentence-apos="11556623">
+<target label-id="8211997" />
+<opinion label-id="8212003" />
+<holder label-id="8211993" />
+</annotation>
+<annotation annotation-set-id="301051" lexunit-annotation-id="163" sentence-apos="69990075">
+<target label-id="8212328" />
+<opinion label-id="8212334" />
+</annotation>
+<annotation annotation-set-id="301073" lexunit-annotation-id="163" sentence-apos="59003307">
+<target label-id="8212620" />
+<opinion label-id="33621411" />
+<opinion label-id="8212648" />
+</annotation>
+<annotation annotation-set-id="301105" lexunit-annotation-id="163" sentence-apos="65238897">
+<target label-id="8213121" />
+<opinion label-id="33621420" />
+<opinion label-id="8213128" />
+<holder label-id="8213115" />
+</annotation>
+<annotation annotation-set-id="301163" lexunit-annotation-id="165" sentence-apos="41372542">
+<target label-id="8213913" />
+<opinion label-id="8213940" />
+<holder label-id="8213905" />
+</annotation>
+<annotation annotation-set-id="301169" lexunit-annotation-id="165" sentence-apos="89636039">
+<target label-id="8213962" />
+<opinion label-id="8213953" />
+<opinion label-id="8213966" />
+<holder label-id="8213994" />
+</annotation>
+<annotation annotation-set-id="301235" lexunit-annotation-id="165" sentence-apos="23188135">
+<target label-id="8214660" />
+<opinion label-id="8214701" />
+<holder label-id="8214651" />
+</annotation>
+<annotation annotation-set-id="301237" lexunit-annotation-id="165" sentence-apos="5656465">
+<target label-id="8214721" />
+<opinion label-id="8214735" />
+<holder label-id="8214713" />
+</annotation>
+<annotation annotation-set-id="301273" lexunit-annotation-id="165" sentence-apos="93314526">
+<target label-id="8215210" />
+<opinion label-id="8215197" />
+<holder label-id="8215213" />
+</annotation>
+<annotation annotation-set-id="301281" lexunit-annotation-id="165" sentence-apos="23558341">
+<target label-id="8215293" />
+<opinion label-id="8215307" />
+<holder label-id="8215287" />
+</annotation>
+<annotation annotation-set-id="301313" lexunit-annotation-id="165" sentence-apos="102378523">
+<target label-id="8215664" />
+<opinion label-id="8215678" />
+<holder label-id="8215656" />
+</annotation>
+<annotation annotation-set-id="301321" lexunit-annotation-id="165" sentence-apos="5897099">
+<target label-id="8215771" />
+<opinion label-id="8215782" />
+<holder label-id="8215762" />
+</annotation>
+<annotation annotation-set-id="301325" lexunit-annotation-id="165" sentence-apos="105951707">
+<target label-id="8215804" />
+<opinion label-id="8215823" />
+<holder label-id="8215800" />
+</annotation>
+<annotation annotation-set-id="301353" lexunit-annotation-id="165" sentence-apos="42729646">
+<target label-id="8216220" />
+</annotation>
+<annotation annotation-set-id="301357" lexunit-annotation-id="165" sentence-apos="34838959">
+<target label-id="8216288" />
+<opinion label-id="8216300" />
+<holder label-id="8216284" />
+</annotation>
+<annotation annotation-set-id="301379" lexunit-annotation-id="165" sentence-apos="19002223">
+<target label-id="8216589" />
+<opinion label-id="8216606" />
+<holder label-id="8216579" />
+</annotation>
+<annotation annotation-set-id="301383" lexunit-annotation-id="165" sentence-apos="34232534">
+<target label-id="8216656" />
+<opinion label-id="8216664" />
+<holder label-id="8216649" />
+</annotation>
+<annotation annotation-set-id="301387" lexunit-annotation-id="165" sentence-apos="80539615">
+<target label-id="8216711" />
+<opinion label-id="8216714" />
+<opinion label-id="8216728" />
+<holder label-id="8216707" />
+</annotation>
+<annotation annotation-set-id="301397" lexunit-annotation-id="165" sentence-apos="5408050">
+<target label-id="8216854" />
+</annotation>
+<annotation annotation-set-id="301413" lexunit-annotation-id="165" sentence-apos="42706794">
+<target label-id="8217123" />
+</annotation>
+<annotation annotation-set-id="301537" lexunit-annotation-id="165" sentence-apos="36578741">
+<target label-id="8218568" />
+<opinion label-id="8218596" />
+</annotation>
+<annotation annotation-set-id="301625" lexunit-annotation-id="165" sentence-apos="7053276">
+<target label-id="8219615" />
+<opinion label-id="8219647" />
+<holder label-id="8219611" />
+</annotation>
+<annotation annotation-set-id="301697" lexunit-annotation-id="165" sentence-apos="82980991">
+<target label-id="8220413" />
+<opinion label-id="8220431" />
+<holder label-id="8220406" />
+</annotation>
+<annotation annotation-set-id="301729" lexunit-annotation-id="165" sentence-apos="61403125">
+<target label-id="8220780" />
+<opinion label-id="8220804" />
+<holder label-id="8220767" />
+</annotation>
+<annotation annotation-set-id="301737" lexunit-annotation-id="165" sentence-apos="66197450">
+<target label-id="8220856" />
+<opinion label-id="8220869" />
+<holder label-id="8220852" />
+</annotation>
+<annotation annotation-set-id="301783" lexunit-annotation-id="165" sentence-apos="58041262">
+<target label-id="8221471" />
+<opinion label-id="8221459" />
+<opinion label-id="8221488" />
+<holder label-id="8221477" />
+</annotation>
+<annotation annotation-set-id="301811" lexunit-annotation-id="165" sentence-apos="103338200">
+<target label-id="8221821" />
+<opinion label-id="8221807" />
+<opinion label-id="8221839" />
+</annotation>
+<annotation annotation-set-id="301857" lexunit-annotation-id="165" sentence-apos="19305315">
+<target label-id="8222445" />
+<opinion label-id="8222477" />
+<holder label-id="8222441" />
+</annotation>
+<annotation annotation-set-id="301861" lexunit-annotation-id="165" sentence-apos="37975153">
+<target label-id="8222501" />
+<opinion label-id="8222518" />
+<holder label-id="8222497" />
+</annotation>
+<annotation annotation-set-id="301875" lexunit-annotation-id="165" sentence-apos="6111205">
+<target label-id="8222708" />
+<opinion label-id="8222725" />
+<holder label-id="8222704" />
+</annotation>
+<annotation annotation-set-id="301903" lexunit-annotation-id="165" sentence-apos="27335953">
+<target label-id="8223143" />
+<opinion label-id="8223159" />
+<holder label-id="8223138" />
+</annotation>
+<annotation annotation-set-id="301919" lexunit-annotation-id="165" sentence-apos="41127724">
+<target label-id="8223359" />
+<opinion label-id="8223392" />
+<holder label-id="8223355" />
+</annotation>
+<annotation annotation-set-id="301947" lexunit-annotation-id="165" sentence-apos="117371396">
+<target label-id="8223759" />
+<opinion label-id="8223781" />
+<holder label-id="8223755" />
+</annotation>
+<annotation annotation-set-id="301951" lexunit-annotation-id="165" sentence-apos="56928839">
+<target label-id="8223816" />
+<opinion label-id="8223826" />
+<holder label-id="8223807" />
+</annotation>
+<annotation annotation-set-id="301955" lexunit-annotation-id="165" sentence-apos="41376905">
+<target label-id="8223853" />
+<opinion label-id="8223890" />
+<holder label-id="8223843" />
+</annotation>
+<annotation annotation-set-id="301963" lexunit-annotation-id="165" sentence-apos="34422649">
+<target label-id="8223956" />
+<opinion label-id="8223983" />
+<holder label-id="8223951" />
+</annotation>
+<annotation annotation-set-id="301987" lexunit-annotation-id="165" sentence-apos="7499974">
+<target label-id="8224284" />
+</annotation>
+<annotation annotation-set-id="301997" lexunit-annotation-id="165" sentence-apos="388811">
+<target label-id="8224380" />
+<opinion label-id="8224401" />
+<holder label-id="8224373" />
+</annotation>
+<annotation annotation-set-id="301519" lexunit-annotation-id="167" sentence-apos="90717146">
+<target label-id="8218358" />
+<opinion label-id="8218370" />
+<holder label-id="8218350" />
+</annotation>
+<annotation annotation-set-id="301627" lexunit-annotation-id="167" sentence-apos="77017645">
+<target label-id="8219651" />
+<opinion label-id="8219659" />
+<holder label-id="8219643" />
+</annotation>
+<annotation annotation-set-id="301691" lexunit-annotation-id="167" sentence-apos="102551145">
+<target label-id="8220325" />
+<opinion label-id="8220342" />
+<holder label-id="8220321" />
+</annotation>
+<annotation annotation-set-id="301953" lexunit-annotation-id="167" sentence-apos="74534994">
+<target label-id="8223846" />
+<opinion label-id="8223889" />
+<holder label-id="8223839" />
+</annotation>
+<annotation annotation-set-id="302045" lexunit-annotation-id="167" sentence-apos="87911643">
+<target label-id="8224938" />
+<opinion label-id="8224958" />
+<holder label-id="8224930" />
+</annotation>
+<annotation annotation-set-id="302093" lexunit-annotation-id="167" sentence-apos="100431761">
+<target label-id="8225618" />
+<opinion label-id="8225624" />
+<holder label-id="8225614" />
+</annotation>
+<annotation annotation-set-id="302107" lexunit-annotation-id="167" sentence-apos="58768939">
+<target label-id="8225710" />
+<opinion label-id="8225729" />
+<holder label-id="8225700" />
+</annotation>
+<annotation annotation-set-id="302245" lexunit-annotation-id="167" sentence-apos="94604851">
+<target label-id="8227482" />
+<opinion label-id="8227495" />
+<holder label-id="8227478" />
+</annotation>
+<annotation annotation-set-id="302437" lexunit-annotation-id="169" sentence-apos="31339840">
+<target label-id="8229918" />
+<opinion label-id="8229905" />
+<opinion label-id="8229930" />
+<holder label-id="8229911" />
+</annotation>
+<annotation annotation-set-id="302477" lexunit-annotation-id="169" sentence-apos="92041797">
+<target label-id="8230368" />
+<opinion label-id="8230376" />
+<holder label-id="8230362" />
+</annotation>
+<annotation annotation-set-id="302511" lexunit-annotation-id="169" sentence-apos="82011256">
+<target label-id="8230830" />
+<opinion label-id="8230842" />
+<holder label-id="8230821" />
+</annotation>
+<annotation annotation-set-id="302515" lexunit-annotation-id="169" sentence-apos="47158584">
+<target label-id="8230893" />
+<opinion label-id="8230917" />
+<holder label-id="8230866" />
+</annotation>
+<annotation annotation-set-id="302559" lexunit-annotation-id="169" sentence-apos="79340849">
+<target label-id="8231339" />
+<opinion label-id="8231341" />
+<holder label-id="8231329" />
+</annotation>
+<annotation annotation-set-id="302599" lexunit-annotation-id="169" sentence-apos="6482239">
+<target label-id="8231903" />
+<opinion label-id="8231911" />
+<opinion label-id="8231921" />
+<holder label-id="8231895" />
+</annotation>
+<annotation annotation-set-id="302603" lexunit-annotation-id="169" sentence-apos="6505568">
+<target label-id="8231973" />
+<opinion label-id="8231975" />
+<opinion label-id="8231979" />
+<holder label-id="8231969" />
+</annotation>
+<annotation annotation-set-id="302611" lexunit-annotation-id="169" sentence-apos="20137220">
+<target label-id="8232077" />
+</annotation>
+<annotation annotation-set-id="302645" lexunit-annotation-id="169" sentence-apos="60232124">
+<target label-id="8232489" />
+<opinion label-id="8232493" />
+<opinion label-id="8232499" />
+<holder label-id="8232459" />
+</annotation>
+<annotation annotation-set-id="302653" lexunit-annotation-id="169" sentence-apos="74528028">
+<target label-id="8232589" />
+<opinion label-id="8232591" />
+<opinion label-id="8232596" />
+<holder label-id="8232585" />
+</annotation>
+<annotation annotation-set-id="302677" lexunit-annotation-id="169" sentence-apos="76533302">
+<target label-id="8232909" />
+</annotation>
+<annotation annotation-set-id="302727" lexunit-annotation-id="169" sentence-apos="87297671">
+<target label-id="8233570" />
+<opinion label-id="8233574" />
+<opinion label-id="8233588" />
+<holder label-id="8233561" />
+</annotation>
+<annotation annotation-set-id="303115" lexunit-annotation-id="169" sentence-apos="32530927">
+<target label-id="8238360" />
+<opinion label-id="8238352" />
+</annotation>
+<annotation annotation-set-id="303545" lexunit-annotation-id="169" sentence-apos="27586051">
+<target label-id="8243379" />
+<opinion label-id="8243404" />
+<holder label-id="8243367" />
+</annotation>
+<annotation annotation-set-id="303549" lexunit-annotation-id="169" sentence-apos="80812221">
+<target label-id="8243429" />
+<opinion label-id="8243437" />
+<holder label-id="8243415" />
+</annotation>
+<annotation annotation-set-id="303557" lexunit-annotation-id="169" sentence-apos="43607221">
+<target label-id="8243564" />
+<opinion label-id="8243570" />
+<holder label-id="8243560" />
+</annotation>
+<annotation annotation-set-id="303593" lexunit-annotation-id="169" sentence-apos="8921346">
+<target label-id="8243922" />
+<opinion label-id="8243935" />
+<holder label-id="8243918" />
+</annotation>
+<annotation annotation-set-id="303663" lexunit-annotation-id="169" sentence-apos="27559233">
+<target label-id="8244833" />
+<opinion label-id="8244847" />
+</annotation>
+<annotation annotation-set-id="303707" lexunit-annotation-id="169" sentence-apos="14592840">
+<target label-id="8245349" />
+<opinion label-id="8245390" />
+<holder label-id="8245345" />
+</annotation>
+<annotation annotation-set-id="303787" lexunit-annotation-id="169" sentence-apos="37203168">
+<target label-id="8246312" />
+<opinion label-id="8246328" />
+<holder label-id="8246303" />
+</annotation>
+<annotation annotation-set-id="303823" lexunit-annotation-id="169" sentence-apos="81912797">
+<target label-id="8246743" />
+<opinion label-id="8246764" />
+<holder label-id="8246739" />
+</annotation>
+<annotation annotation-set-id="303879" lexunit-annotation-id="169" sentence-apos="24903026">
+<target label-id="8247417" />
+<opinion label-id="8247426" />
+<holder label-id="8247413" />
+</annotation>
+<annotation annotation-set-id="303899" lexunit-annotation-id="169" sentence-apos="103906942">
+<target label-id="8247656" />
+<opinion label-id="8247671" />
+<holder label-id="8247650" />
+</annotation>
+<annotation annotation-set-id="303983" lexunit-annotation-id="169" sentence-apos="134603">
+<target label-id="8248545" />
+<opinion label-id="8248534" />
+<opinion label-id="8248557" />
+</annotation>
+<annotation annotation-set-id="304043" lexunit-annotation-id="169" sentence-apos="102697681">
+<target label-id="8249317" />
+<opinion label-id="8249290" />
+<opinion label-id="8249329" />
+</annotation>
+<annotation annotation-set-id="304087" lexunit-annotation-id="171" sentence-apos="67096863">
+<target label-id="8249787" />
+<opinion label-id="8249796" />
+</annotation>
+<annotation annotation-set-id="304101" lexunit-annotation-id="171" sentence-apos="20793547">
+<target label-id="8249926" />
+<opinion label-id="8249976" />
+</annotation>
+<annotation annotation-set-id="304529" lexunit-annotation-id="171" sentence-apos="79921519">
+<target label-id="8255474" />
+<opinion label-id="8255491" />
+</annotation>
+<annotation annotation-set-id="305223" lexunit-annotation-id="171" sentence-apos="21298089">
+<target label-id="8264131" />
+<opinion label-id="8264169" />
+</annotation>
+<annotation annotation-set-id="305561" lexunit-annotation-id="171" sentence-apos="29248197">
+<target label-id="8268477" />
+<opinion label-id="8268519" />
+</annotation>
+<annotation annotation-set-id="16953" lexunit-annotation-id="1805" sentence-apos="104690410">
+<target label-id="2215787" />
+<opinion label-id="2222989" />
+<holder label-id="2222988" />
+</annotation>
+<annotation annotation-set-id="17381" lexunit-annotation-id="1805" sentence-apos="103738929">
+<target label-id="2221050" />
+<opinion label-id="2223272" />
+<holder label-id="2223273" />
+</annotation>
+<annotation annotation-set-id="23433" lexunit-annotation-id="1859" sentence-apos="102673636">
+<target label-id="3672949" />
+<opinion label-id="4535503" />
+</annotation>
+<annotation annotation-set-id="23473" lexunit-annotation-id="1859" sentence-apos="81984567">
+<target label-id="3673515" />
+<opinion label-id="4535555" />
+</annotation>
+<annotation annotation-set-id="23749" lexunit-annotation-id="1859" sentence-apos="7661434">
+<target label-id="3677011" />
+<opinion label-id="4535773" />
+<holder label-id="4535767" />
+</annotation>
+<annotation annotation-set-id="18089" lexunit-annotation-id="1862" sentence-apos="46883492">
+<target label-id="2274837" />
+<opinion label-id="4653446" />
+<holder label-id="4653440" />
+</annotation>
+<annotation annotation-set-id="18095" lexunit-annotation-id="1862" sentence-apos="13336411">
+<target label-id="2274898" />
+<opinion label-id="4653464" />
+<holder label-id="4653458" />
+</annotation>
+<annotation annotation-set-id="18097" lexunit-annotation-id="1862" sentence-apos="29827908">
+<target label-id="2274927" />
+<opinion label-id="4653433" />
+<holder label-id="4653427" />
+</annotation>
+<annotation annotation-set-id="345879" lexunit-annotation-id="221" sentence-apos="58256475">
+<target label-id="8772210" />
+<opinion label-id="8772218" />
+<holder label-id="8772200" />
+</annotation>
+<annotation annotation-set-id="345883" lexunit-annotation-id="221" sentence-apos="61552329">
+<target label-id="8772258" />
+<opinion label-id="8772271" />
+<holder label-id="8772254" />
+</annotation>
+<annotation annotation-set-id="346129" lexunit-annotation-id="222" sentence-apos="4528605">
+<target label-id="8775483" />
+<opinion label-id="8775474" />
+<opinion label-id="8775504" />
+<holder label-id="8775479" />
+</annotation>
+<annotation annotation-set-id="346149" lexunit-annotation-id="222" sentence-apos="58266755">
+<target label-id="8775830" />
+<opinion label-id="8775822" />
+<holder label-id="8775826" />
+</annotation>
+<annotation annotation-set-id="346167" lexunit-annotation-id="222" sentence-apos="116644561">
+<target label-id="8776027" />
+<opinion label-id="8776018" />
+<opinion label-id="8776039" />
+<holder label-id="8776023" />
+</annotation>
+<annotation annotation-set-id="346345" lexunit-annotation-id="222" sentence-apos="102361054">
+<target label-id="8778589" />
+<opinion label-id="8778597" />
+<holder label-id="8778584" />
+</annotation>
+<annotation annotation-set-id="346361" lexunit-annotation-id="222" sentence-apos="22594063">
+<target label-id="8778832" />
+<opinion label-id="8778827" />
+<holder label-id="8778836" />
+</annotation>
+<annotation annotation-set-id="346375" lexunit-annotation-id="222" sentence-apos="102805767">
+<target label-id="8778981" />
+<opinion label-id="8778986" />
+<holder label-id="8778977" />
+</annotation>
+<annotation annotation-set-id="346383" lexunit-annotation-id="222" sentence-apos="30733104">
+<target label-id="8779070" />
+<opinion label-id="8779096" />
+</annotation>
+<annotation annotation-set-id="346433" lexunit-annotation-id="222" sentence-apos="4867312">
+<target label-id="8779805" />
+<opinion label-id="8779826" />
+<holder label-id="8779801" />
+</annotation>
+<annotation annotation-set-id="346435" lexunit-annotation-id="222" sentence-apos="11888216">
+<target label-id="8779851" />
+<opinion label-id="8779863" />
+<holder label-id="8779846" />
+</annotation>
+<annotation annotation-set-id="346449" lexunit-annotation-id="222" sentence-apos="59796652">
+<target label-id="8780072" />
+<opinion label-id="8780079" />
+<holder label-id="8780068" />
+</annotation>
+<annotation annotation-set-id="346481" lexunit-annotation-id="222" sentence-apos="46121956">
+<target label-id="8780483" />
+<opinion label-id="8780504" />
+<holder label-id="8780479" />
+</annotation>
+<annotation annotation-set-id="347671" lexunit-annotation-id="224" sentence-apos="88464690">
+<target label-id="8796725" />
+<opinion label-id="8796717" />
+<holder label-id="8796721" />
+</annotation>
+<annotation annotation-set-id="347747" lexunit-annotation-id="224" sentence-apos="68811780">
+<target label-id="8797846" />
+<opinion label-id="8797837" />
+<opinion label-id="8797854" />
+<holder label-id="8797842" />
+</annotation>
+<annotation annotation-set-id="347795" lexunit-annotation-id="224" sentence-apos="107999294">
+<target label-id="8798549" />
+<opinion label-id="8798542" />
+</annotation>
+<annotation annotation-set-id="347841" lexunit-annotation-id="224" sentence-apos="25613669">
+<target label-id="8799192" />
+<opinion label-id="8799199" />
+<holder label-id="8799187" />
+<holder label-id="8799187" />
+</annotation>
+<annotation annotation-set-id="348547" lexunit-annotation-id="227" sentence-apos="60465044">
+<target label-id="8808457" />
+<opinion label-id="8808465" />
+<holder label-id="8808453" />
+</annotation>
+<annotation annotation-set-id="348607" lexunit-annotation-id="227" sentence-apos="69142646">
+<target label-id="8809194" />
+<opinion label-id="8809205" />
+<holder label-id="8809190" />
+</annotation>
+<annotation annotation-set-id="348785" lexunit-annotation-id="227" sentence-apos="58386610">
+<target label-id="8811175" />
+<opinion label-id="8811166" />
+<opinion label-id="8811181" />
+<holder label-id="8811171" />
+</annotation>
+<annotation annotation-set-id="348809" lexunit-annotation-id="227" sentence-apos="66547228">
+<target label-id="8811488" />
+<opinion label-id="8811507" />
+</annotation>
+<annotation annotation-set-id="348853" lexunit-annotation-id="227" sentence-apos="36870962">
+<target label-id="8812043" />
+<opinion label-id="8812055" />
+<holder label-id="8812039" />
+</annotation>
+<annotation annotation-set-id="348885" lexunit-annotation-id="227" sentence-apos="30551853">
+<target label-id="8812556" />
+<opinion label-id="8812568" />
+<holder label-id="8812552" />
+</annotation>
+<annotation annotation-set-id="348893" lexunit-annotation-id="227" sentence-apos="58983690">
+<target label-id="8812661" />
+<opinion label-id="8812672" />
+<holder label-id="8812657" />
+</annotation>
+<annotation annotation-set-id="348907" lexunit-annotation-id="227" sentence-apos="7469639">
+<target label-id="8812817" />
+<opinion label-id="8812831" />
+<holder label-id="8812813" />
+</annotation>
+<annotation annotation-set-id="349009" lexunit-annotation-id="227" sentence-apos="26867468">
+<target label-id="8813992" />
+<opinion label-id="8814015" />
+<holder label-id="8813988" />
+</annotation>
+<annotation annotation-set-id="349181" lexunit-annotation-id="228" sentence-apos="76640415">
+<target label-id="8816372" />
+<opinion label-id="8816379" />
+<holder label-id="8816366" />
+</annotation>
+<annotation annotation-set-id="349385" lexunit-annotation-id="228" sentence-apos="40281708">
+<target label-id="8819384" />
+<opinion label-id="8819404" />
+<holder label-id="8819379" />
+</annotation>
+<annotation annotation-set-id="349391" lexunit-annotation-id="228" sentence-apos="42363001">
+<target label-id="8819462" />
+<opinion label-id="8819472" />
+<holder label-id="8819457" />
+</annotation>
+<annotation annotation-set-id="349441" lexunit-annotation-id="228" sentence-apos="73267055">
+<target label-id="8820161" />
+<opinion label-id="8820176" />
+<holder label-id="8820155" />
+</annotation>
+<annotation annotation-set-id="350649" lexunit-annotation-id="230" sentence-apos="7418082">
+<target label-id="8835864" />
+<opinion label-id="8835855" />
+</annotation>
+<annotation annotation-set-id="351343" lexunit-annotation-id="230" sentence-apos="20325806">
+<target label-id="8844714" />
+<opinion label-id="8844731" />
+</annotation>
+<annotation annotation-set-id="351439" lexunit-annotation-id="232" sentence-apos="69176324">
+<target label-id="8845857" />
+<opinion label-id="8845883" />
+<holder label-id="8845847" />
+</annotation>
+<annotation annotation-set-id="351551" lexunit-annotation-id="232" sentence-apos="21045010">
+<target label-id="8847347" />
+<opinion label-id="8847367" />
+<holder label-id="8847338" />
+</annotation>
+<annotation annotation-set-id="351647" lexunit-annotation-id="232" sentence-apos="104260268">
+<target label-id="8848831" />
+<opinion label-id="8848845" />
+<holder label-id="8848824" />
+</annotation>
+<annotation annotation-set-id="351869" lexunit-annotation-id="232" sentence-apos="14832749">
+<target label-id="8851799" />
+<opinion label-id="8851824" />
+<holder label-id="8851806" />
+</annotation>
+<annotation annotation-set-id="351903" lexunit-annotation-id="232" sentence-apos="81561721">
+<target label-id="8852290" />
+<opinion label-id="8852314" />
+</annotation>
+<annotation annotation-set-id="351995" lexunit-annotation-id="232" sentence-apos="76195495">
+<target label-id="8853645" />
+<opinion label-id="8853672" />
+<holder label-id="8853640" />
+</annotation>
+<annotation annotation-set-id="352087" lexunit-annotation-id="232" sentence-apos="21090411">
+<target label-id="8854759" />
+<opinion label-id="8854769" />
+<holder label-id="8854754" />
+</annotation>
+<annotation annotation-set-id="352091" lexunit-annotation-id="232" sentence-apos="30110313">
+<target label-id="8854802" />
+<opinion label-id="8854810" />
+<holder label-id="8854798" />
+</annotation>
+<annotation annotation-set-id="352097" lexunit-annotation-id="232" sentence-apos="54870787">
+<target label-id="8854885" />
+<opinion label-id="8854898" />
+<holder label-id="8854881" />
+</annotation>
+<annotation annotation-set-id="352117" lexunit-annotation-id="232" sentence-apos="103600551">
+<target label-id="8855173" />
+<opinion label-id="8855193" />
+<holder label-id="8855167" />
+</annotation>
+<annotation annotation-set-id="352187" lexunit-annotation-id="232" sentence-apos="89099141">
+<target label-id="8855904" />
+<opinion label-id="8855939" />
+<holder label-id="8855896" />
+</annotation>
+<annotation annotation-set-id="351567" lexunit-annotation-id="233" sentence-apos="58269112">
+<target label-id="8847602" />
+<opinion label-id="8847585" />
+<holder label-id="8847592" />
+</annotation>
+<annotation annotation-set-id="351711" lexunit-annotation-id="233" sentence-apos="21984901">
+<target label-id="8849708" />
+<opinion label-id="8849741" />
+</annotation>
+<annotation annotation-set-id="351721" lexunit-annotation-id="233" sentence-apos="35611477">
+<target label-id="8849808" />
+<opinion label-id="8849860" />
+<holder label-id="8849802" />
+</annotation>
+<annotation annotation-set-id="351737" lexunit-annotation-id="233" sentence-apos="47176744">
+<target label-id="8850071" />
+<opinion label-id="8850085" />
+<holder label-id="8850053" />
+</annotation>
+<annotation annotation-set-id="351747" lexunit-annotation-id="233" sentence-apos="64407026">
+<target label-id="8850193" />
+<opinion label-id="8850213" />
+<holder label-id="8850189" />
+</annotation>
+<annotation annotation-set-id="351759" lexunit-annotation-id="233" sentence-apos="90398322">
+<target label-id="8850389" />
+<opinion label-id="8850421" />
+<holder label-id="8850381" />
+</annotation>
+<annotation annotation-set-id="351767" lexunit-annotation-id="233" sentence-apos="96528509">
+<target label-id="8850509" />
+<opinion label-id="8850531" />
+<holder label-id="8850502" />
+</annotation>
+<annotation annotation-set-id="8667" lexunit-annotation-id="241" sentence-apos="44006664">
+<target label-id="1268300" />
+<opinion label-id="2223441" />
+</annotation>
+<annotation annotation-set-id="8691" lexunit-annotation-id="241" sentence-apos="28240277">
+<target label-id="1268690" />
+<opinion label-id="10607725" />
+</annotation>
+<annotation annotation-set-id="8797" lexunit-annotation-id="242" sentence-apos="9655978">
+<target label-id="1270139" />
+<opinion label-id="1270147" />
+</annotation>
+<annotation annotation-set-id="1765428" lexunit-annotation-id="244" sentence-apos="17102926">
+<target label-id="28724116" />
+<opinion label-id="28724136" />
+</annotation>
+<annotation annotation-set-id="1765438" lexunit-annotation-id="244" sentence-apos="46288007">
+<target label-id="28724302" />
+<opinion label-id="28724309" />
+</annotation>
+<annotation annotation-set-id="9675" lexunit-annotation-id="245" sentence-apos="41515985">
+<target label-id="1289621" />
+<opinion label-id="1289617" />
+</annotation>
+<annotation annotation-set-id="1763164" lexunit-annotation-id="247" sentence-apos="7452985">
+<target label-id="28694891" />
+<opinion label-id="28694897" />
+</annotation>
+<annotation annotation-set-id="1763174" lexunit-annotation-id="247" sentence-apos="37039154">
+<target label-id="28694991" />
+<opinion label-id="28695001" />
+</annotation>
+<annotation annotation-set-id="1759216" lexunit-annotation-id="248" sentence-apos="20591456">
+<target label-id="28635659" />
+<opinion label-id="28635674" />
+</annotation>
+<annotation annotation-set-id="1759242" lexunit-annotation-id="248" sentence-apos="102392886">
+<target label-id="28636001" />
+<opinion label-id="28636015" />
+</annotation>
+<annotation annotation-set-id="1759300" lexunit-annotation-id="248" sentence-apos="30457002">
+<target label-id="28636796" />
+<opinion label-id="28636808" />
+</annotation>
+<annotation annotation-set-id="1759316" lexunit-annotation-id="248" sentence-apos="69683345">
+<target label-id="28636979" />
+<opinion label-id="28636992" />
+</annotation>
+<annotation annotation-set-id="1759432" lexunit-annotation-id="248" sentence-apos="22074077">
+<target label-id="28638435" />
+<opinion label-id="28638444" />
+</annotation>
+<annotation annotation-set-id="1759506" lexunit-annotation-id="248" sentence-apos="92595393">
+<target label-id="28639394" />
+<opinion label-id="28639401" />
+</annotation>
+<annotation annotation-set-id="1759636" lexunit-annotation-id="248" sentence-apos="53967395">
+<target label-id="28641071" />
+<opinion label-id="28641091" />
+</annotation>
+<annotation annotation-set-id="1759818" lexunit-annotation-id="248" sentence-apos="27607614">
+<target label-id="28643530" />
+<opinion label-id="28643519" />
+</annotation>
+<annotation annotation-set-id="1759844" lexunit-annotation-id="248" sentence-apos="33425275">
+<target label-id="28643893" />
+<opinion label-id="28643907" />
+</annotation>
+<annotation annotation-set-id="9923" lexunit-annotation-id="249" sentence-apos="43645533">
+<target label-id="1309835" />
+<opinion label-id="1309849" />
+</annotation>
+<annotation annotation-set-id="10565" lexunit-annotation-id="250" sentence-apos="52663470">
+<target label-id="1317866" />
+<opinion label-id="1317879" />
+</annotation>
+<annotation annotation-set-id="10593" lexunit-annotation-id="250" sentence-apos="7235276">
+<target label-id="1318226" />
+<opinion label-id="1318252" />
+</annotation>
+<annotation annotation-set-id="1763074" lexunit-annotation-id="251" sentence-apos="28843050">
+<target label-id="28693689" />
+<opinion label-id="28693705" />
+</annotation>
+<annotation annotation-set-id="1763090" lexunit-annotation-id="251" sentence-apos="46878152">
+<target label-id="28693926" />
+<opinion label-id="28693940" />
+</annotation>
+<annotation annotation-set-id="538123" lexunit-annotation-id="2754" sentence-apos="101076897">
+<target label-id="11166457" />
+<opinion label-id="11497478" />
+<holder label-id="11497475" />
+</annotation>
+<annotation annotation-set-id="894785" lexunit-annotation-id="4489" sentence-apos="3287065">
+<target label-id="31886342" />
+<opinion label-id="17830859" />
+<holder label-id="17830856" />
+</annotation>
+<annotation annotation-set-id="353953" lexunit-annotation-id="481" sentence-apos="22715605">
+<target label-id="8878894" />
+<opinion label-id="8878884" />
+<opinion label-id="8878903" />
+<holder label-id="8878890" />
+</annotation>
+<annotation annotation-set-id="354787" lexunit-annotation-id="482" sentence-apos="88623002">
+<target label-id="8889306" />
+<opinion label-id="8889293" />
+<holder label-id="8889302" />
+</annotation>
+<annotation annotation-set-id="355227" lexunit-annotation-id="484" sentence-apos="47345067">
+<target label-id="8894525" />
+<opinion label-id="8894547" />
+<holder label-id="8894520" />
+</annotation>
+<annotation annotation-set-id="355399" lexunit-annotation-id="485" sentence-apos="30557837">
+<target label-id="8897012" />
+<opinion label-id="8897021" />
+<holder label-id="8897006" />
+</annotation>
+<annotation annotation-set-id="356111" lexunit-annotation-id="487" sentence-apos="74784692">
+<target label-id="8908194" />
+<opinion label-id="8908173" />
+<holder label-id="8908186" />
+</annotation>
+<annotation annotation-set-id="356167" lexunit-annotation-id="487" sentence-apos="74451237">
+<target label-id="8908970" />
+<opinion label-id="8908966" />
+<holder label-id="8908972" />
+</annotation>
+<annotation annotation-set-id="1742619" lexunit-annotation-id="523" sentence-apos="29274227">
+<target label-id="28431381" />
+</annotation>
+<annotation annotation-set-id="391108" lexunit-annotation-id="541" sentence-apos="103278345">
+<target label-id="9325220" />
+</annotation>
+<annotation annotation-set-id="391140" lexunit-annotation-id="541" sentence-apos="102607491">
+<target label-id="9325600" />
+<opinion label-id="9325611" />
+</annotation>
+<annotation annotation-set-id="391272" lexunit-annotation-id="541" sentence-apos="103093755">
+<target label-id="9327144" />
+</annotation>
+<annotation annotation-set-id="393020" lexunit-annotation-id="541" sentence-apos="69838158">
+<target label-id="9348099" />
+</annotation>
+<annotation annotation-set-id="1182466" lexunit-annotation-id="5585" sentence-apos="4581746">
+<target label-id="21523911" />
+<opinion label-id="21607401" />
+<holder label-id="21607361" />
+</annotation>
+<annotation annotation-set-id="1182496" lexunit-annotation-id="5585" sentence-apos="106576616">
+<target label-id="21524235" />
+<opinion label-id="21876113" />
+<holder label-id="21876116" />
+</annotation>
+<annotation annotation-set-id="1182514" lexunit-annotation-id="5585" sentence-apos="41181285">
+<target label-id="21524445" />
+<opinion label-id="21607419" />
+<holder label-id="21607422" />
+</annotation>
+<annotation annotation-set-id="1182530" lexunit-annotation-id="5585" sentence-apos="93320288">
+<target label-id="21524619" />
+<opinion label-id="21876119" />
+<holder label-id="21876122" />
+</annotation>
+<annotation annotation-set-id="1182544" lexunit-annotation-id="5585" sentence-apos="11972562">
+<target label-id="21524766" />
+<opinion label-id="21607374" />
+<holder label-id="21607371" />
+</annotation>
+<annotation annotation-set-id="1182644" lexunit-annotation-id="5585" sentence-apos="43491011">
+<target label-id="21526201" />
+<opinion label-id="21876137" />
+<holder label-id="21876134" />
+</annotation>
+<annotation annotation-set-id="1182664" lexunit-annotation-id="5585" sentence-apos="44590316">
+<target label-id="21526435" />
+<opinion label-id="21876142" />
+<holder label-id="21876139" />
+</annotation>
+<annotation annotation-set-id="1182670" lexunit-annotation-id="5585" sentence-apos="105079953">
+<target label-id="21526531" />
+<opinion label-id="21876128" />
+<holder label-id="21876125" />
+</annotation>
+<annotation annotation-set-id="1182678" lexunit-annotation-id="5585" sentence-apos="95211505">
+<target label-id="21526629" />
+<opinion label-id="21876148" />
+<holder label-id="21876145" />
+</annotation>
+<annotation annotation-set-id="1182684" lexunit-annotation-id="5585" sentence-apos="102592103">
+<target label-id="21526702" />
+<opinion label-id="21876169" />
+<holder label-id="21876151" />
+</annotation>
+<annotation annotation-set-id="1182796" lexunit-annotation-id="5585" sentence-apos="76165023">
+<target label-id="21528059" />
+<opinion label-id="21876214" />
+<holder label-id="21876217" />
+</annotation>
+<annotation annotation-set-id="1182854" lexunit-annotation-id="5585" sentence-apos="104690300">
+<target label-id="21528908" />
+<opinion label-id="21876228" />
+<holder label-id="21876225" />
+</annotation>
+<annotation annotation-set-id="1185894" lexunit-annotation-id="5586" sentence-apos="33275910">
+<target label-id="21567870" />
+<opinion label-id="21677679" />
+<holder label-id="21612937" />
+</annotation>
+<annotation annotation-set-id="1185980" lexunit-annotation-id="5586" sentence-apos="36010549">
+<target label-id="21568912" />
+<opinion label-id="21612964" />
+<holder label-id="21612961" />
+</annotation>
+<annotation annotation-set-id="1187078" lexunit-annotation-id="5587" sentence-apos="32057070">
+<target label-id="21582856" />
+<opinion label-id="21612854" />
+<holder label-id="21612851" />
+</annotation>
+<annotation annotation-set-id="1187090" lexunit-annotation-id="5587" sentence-apos="100684637">
+<target label-id="21582973" />
+<opinion label-id="21612857" />
+<holder label-id="21612860" />
+</annotation>
+<annotation annotation-set-id="1187196" lexunit-annotation-id="5587" sentence-apos="78527374">
+<target label-id="21584358" />
+</annotation>
+<annotation annotation-set-id="1187210" lexunit-annotation-id="5587" sentence-apos="101129739">
+<target label-id="21584483" />
+<opinion label-id="21612903" />
+<holder label-id="21612897" />
+</annotation>
+<annotation annotation-set-id="1184554" lexunit-annotation-id="5588" sentence-apos="77648134">
+<target label-id="21550342" />
+<opinion label-id="22043351" />
+</annotation>
+<annotation annotation-set-id="1184632" lexunit-annotation-id="5588" sentence-apos="81473376">
+<target label-id="21551395" />
+<opinion label-id="22043361" />
+</annotation>
+<annotation annotation-set-id="1184706" lexunit-annotation-id="5588" sentence-apos="76461771">
+<target label-id="21552413" />
+<opinion label-id="22043364" />
+</annotation>
+<annotation annotation-set-id="1184792" lexunit-annotation-id="5588" sentence-apos="55379224">
+<target label-id="21553626" />
+<opinion label-id="22043379" />
+</annotation>
+<annotation annotation-set-id="1185306" lexunit-annotation-id="5588" sentence-apos="77023919">
+<target label-id="21560463" />
+<opinion label-id="22043418" />
+<holder label-id="22043415" />
+</annotation>
+<annotation annotation-set-id="1187458" lexunit-annotation-id="5589" sentence-apos="7308704">
+<target label-id="21587425" />
+<opinion label-id="22043272" />
+<holder label-id="22043269" />
+</annotation>
+<annotation annotation-set-id="1187462" lexunit-annotation-id="5589" sentence-apos="8725419">
+<target label-id="21587496" />
+<opinion label-id="22043278" />
+<holder label-id="22043275" />
+</annotation>
+<annotation annotation-set-id="1187524" lexunit-annotation-id="5589" sentence-apos="3306194">
+<target label-id="21588286" />
+<opinion label-id="22043290" />
+<holder label-id="22043287" />
+</annotation>
+<annotation annotation-set-id="1187600" lexunit-annotation-id="5589" sentence-apos="80127829">
+<target label-id="21589283" />
+<opinion label-id="22043327" />
+</annotation>
+<annotation annotation-set-id="357685" lexunit-annotation-id="569" sentence-apos="54706526">
+<target label-id="8928604" />
+<opinion label-id="8928596" />
+<holder label-id="8928600" />
+</annotation>
+<annotation annotation-set-id="357697" lexunit-annotation-id="569" sentence-apos="75781596">
+<target label-id="8928713" />
+<opinion label-id="8928705" />
+<holder label-id="8928709" />
+</annotation>
+<annotation annotation-set-id="357755" lexunit-annotation-id="569" sentence-apos="40117530">
+<target label-id="8929270" />
+<opinion label-id="8929266" />
+<holder label-id="8929272" />
+</annotation>
+<annotation annotation-set-id="357797" lexunit-annotation-id="569" sentence-apos="36970694">
+<target label-id="8929767" />
+<opinion label-id="8929788" />
+<holder label-id="8929759" />
+</annotation>
+<annotation annotation-set-id="358069" lexunit-annotation-id="570" sentence-apos="7282787">
+<target label-id="8933002" />
+<opinion label-id="8932998" />
+<holder label-id="8933005" />
+</annotation>
+<annotation annotation-set-id="358101" lexunit-annotation-id="570" sentence-apos="80628434">
+<target label-id="8933456" />
+<opinion label-id="8933448" />
+<holder label-id="8933452" />
+</annotation>
+<annotation annotation-set-id="358275" lexunit-annotation-id="570" sentence-apos="108169755">
+<target label-id="8935429" />
+<opinion label-id="8935444" />
+<holder label-id="8935421" />
+</annotation>
+<annotation annotation-set-id="358299" lexunit-annotation-id="571" sentence-apos="27340482">
+<target label-id="8935685" />
+<opinion label-id="8935700" />
+</annotation>
+<annotation annotation-set-id="358305" lexunit-annotation-id="571" sentence-apos="106666781">
+<target label-id="8935772" />
+<opinion label-id="8935781" />
+<holder label-id="8935768" />
+</annotation>
+<annotation annotation-set-id="358317" lexunit-annotation-id="571" sentence-apos="105949588">
+<target label-id="8935969" />
+<opinion label-id="8935961" />
+<holder label-id="8935965" />
+</annotation>
+<annotation annotation-set-id="358771" lexunit-annotation-id="573" sentence-apos="74520064">
+<target label-id="8941165" />
+<opinion label-id="8941161" />
+<holder label-id="8941168" />
+</annotation>
+<annotation annotation-set-id="358937" lexunit-annotation-id="575" sentence-apos="79893998">
+<target label-id="8943029" />
+<opinion label-id="8943019" />
+<holder label-id="8943025" />
+</annotation>
+<annotation annotation-set-id="359059" lexunit-annotation-id="576" sentence-apos="11159118">
+<target label-id="8944246" />
+<opinion label-id="8944238" />
+<holder label-id="8944242" />
+</annotation>
+<annotation annotation-set-id="359065" lexunit-annotation-id="576" sentence-apos="19328161">
+<target label-id="8944322" />
+<opinion label-id="8944314" />
+<holder label-id="8944318" />
+</annotation>
+<annotation annotation-set-id="359101" lexunit-annotation-id="576" sentence-apos="105958868">
+<target label-id="8944707" />
+<opinion label-id="8944703" />
+<holder label-id="8944709" />
+</annotation>
+<annotation annotation-set-id="359145" lexunit-annotation-id="577" sentence-apos="28282624">
+<target label-id="8945269" />
+<opinion label-id="8945265" />
+<holder label-id="8945271" />
+</annotation>
+<annotation annotation-set-id="359215" lexunit-annotation-id="578" sentence-apos="10635296">
+<target label-id="8945882" />
+<opinion label-id="8945878" />
+<opinion label-id="8945898" />
+<holder label-id="8945885" />
+</annotation>
+<annotation annotation-set-id="359245" lexunit-annotation-id="578" sentence-apos="70354370">
+<target label-id="8946169" />
+<opinion label-id="8946165" />
+<holder label-id="8946171" />
+</annotation>
+<annotation annotation-set-id="359251" lexunit-annotation-id="578" sentence-apos="106524387">
+<target label-id="8946229" />
+<opinion label-id="8946225" />
+</annotation>
+<annotation annotation-set-id="359253" lexunit-annotation-id="578" sentence-apos="41356436">
+<target label-id="8946289" />
+<opinion label-id="8946308" />
+<holder label-id="8946285" />
+</annotation>
+<annotation annotation-set-id="359255" lexunit-annotation-id="578" sentence-apos="69493854">
+<target label-id="8946323" />
+<opinion label-id="8946334" />
+<holder label-id="8946319" />
+</annotation>
+<annotation annotation-set-id="359273" lexunit-annotation-id="578" sentence-apos="80172301">
+<target label-id="8946516" />
+<opinion label-id="8946512" />
+<holder label-id="8946520" />
+</annotation>
+<annotation annotation-set-id="359311" lexunit-annotation-id="578" sentence-apos="90252088">
+<target label-id="8946881" />
+<opinion label-id="8946873" />
+<holder label-id="8946877" />
+</annotation>
+<annotation annotation-set-id="359365" lexunit-annotation-id="578" sentence-apos="22930132">
+<target label-id="8947494" />
+<opinion label-id="8947485" />
+<holder label-id="8947489" />
+</annotation>
+<annotation annotation-set-id="359525" lexunit-annotation-id="580" sentence-apos="19330771">
+<target label-id="8949075" />
+<opinion label-id="8949067" />
+<holder label-id="8949071" />
+</annotation>
+<annotation annotation-set-id="359547" lexunit-annotation-id="580" sentence-apos="75664143">
+<target label-id="8949268" />
+<opinion label-id="8949260" />
+<holder label-id="8949264" />
+</annotation>
+<annotation annotation-set-id="359561" lexunit-annotation-id="580" sentence-apos="88529618">
+<target label-id="8949423" />
+<opinion label-id="8949419" />
+<holder label-id="8949426" />
+</annotation>
+<annotation annotation-set-id="359579" lexunit-annotation-id="580" sentence-apos="4512380">
+<target label-id="8949634" />
+<opinion label-id="8949645" />
+<holder label-id="8949630" />
+</annotation>
+<annotation annotation-set-id="359723" lexunit-annotation-id="581" sentence-apos="88414175">
+<target label-id="8951164" />
+<opinion label-id="8951160" />
+<opinion label-id="8951192" />
+<holder label-id="8951167" />
+</annotation>
+<annotation annotation-set-id="359867" lexunit-annotation-id="582" sentence-apos="22771622">
+<target label-id="8952615" />
+<opinion label-id="8952607" />
+<holder label-id="8952611" />
+</annotation>
+<annotation annotation-set-id="359897" lexunit-annotation-id="582" sentence-apos="6806502">
+<target label-id="8952940" />
+<opinion label-id="8952936" />
+<holder label-id="8952942" />
+</annotation>
+<annotation annotation-set-id="359947" lexunit-annotation-id="582" sentence-apos="73557250">
+<target label-id="8953457" />
+<opinion label-id="8953448" />
+<holder label-id="8953453" />
+</annotation>
+<annotation annotation-set-id="360023" lexunit-annotation-id="583" sentence-apos="64223101">
+<target label-id="8954323" />
+<opinion label-id="8954315" />
+<opinion label-id="8954342" />
+<holder label-id="8954319" />
+</annotation>
+<annotation annotation-set-id="360223" lexunit-annotation-id="584" sentence-apos="24565195">
+<target label-id="8956628" />
+<opinion label-id="8956623" />
+<opinion label-id="8956653" />
+<holder label-id="30940331" />
+</annotation>
+<annotation annotation-set-id="360261" lexunit-annotation-id="584" sentence-apos="50737244">
+<target label-id="8957026" />
+<opinion label-id="8957022" />
+<holder label-id="8957028" />
+</annotation>
+<annotation annotation-set-id="360447" lexunit-annotation-id="584" sentence-apos="105671226">
+<target label-id="8959077" />
+<opinion label-id="8959079" />
+<holder label-id="8959072" />
+</annotation>
+<annotation annotation-set-id="360815" lexunit-annotation-id="585" sentence-apos="856006">
+<target label-id="8962957" />
+<opinion label-id="8962946" />
+<opinion label-id="8962997" />
+<holder label-id="8962953" />
+</annotation>
+<annotation annotation-set-id="360819" lexunit-annotation-id="585" sentence-apos="52843329">
+<target label-id="8963050" />
+<opinion label-id="8963046" />
+<holder label-id="8963053" />
+</annotation>
+<annotation annotation-set-id="361003" lexunit-annotation-id="586" sentence-apos="76554481">
+<target label-id="8965057" />
+<opinion label-id="8965049" />
+<holder label-id="8965053" />
+</annotation>
+<annotation annotation-set-id="361015" lexunit-annotation-id="586" sentence-apos="101109185">
+<target label-id="8965160" />
+<opinion label-id="8965152" />
+<holder label-id="8965156" />
+</annotation>
+<annotation annotation-set-id="361253" lexunit-annotation-id="587" sentence-apos="79094865">
+<target label-id="8967579" />
+<opinion label-id="8967571" />
+<holder label-id="8967575" />
+</annotation>
+<annotation annotation-set-id="361373" lexunit-annotation-id="587" sentence-apos="76539339">
+<target label-id="8968752" />
+<opinion label-id="8968744" />
+<holder label-id="8968748" />
+</annotation>
+<annotation annotation-set-id="361437" lexunit-annotation-id="587" sentence-apos="75457335">
+<target label-id="8969504" />
+<opinion label-id="8969496" />
+<holder label-id="8969500" />
+</annotation>
+<annotation annotation-set-id="361471" lexunit-annotation-id="588" sentence-apos="79528573">
+<target label-id="8969818" />
+<opinion label-id="8969810" />
+<holder label-id="8969814" />
+</annotation>
+<annotation annotation-set-id="361499" lexunit-annotation-id="588" sentence-apos="18175671">
+<target label-id="8970054" />
+<opinion label-id="8970050" />
+<opinion label-id="8970070" />
+<holder label-id="8970060" />
+</annotation>
+<annotation annotation-set-id="361503" lexunit-annotation-id="588" sentence-apos="25879947">
+<target label-id="8970108" />
+<opinion label-id="8970104" />
+<holder label-id="8970110" />
+</annotation>
+<annotation annotation-set-id="361575" lexunit-annotation-id="588" sentence-apos="103891533">
+<target label-id="8970872" />
+<opinion label-id="8970868" />
+<holder label-id="8970876" />
+</annotation>
+<annotation annotation-set-id="361651" lexunit-annotation-id="588" sentence-apos="19331201">
+<target label-id="8971592" />
+<opinion label-id="8971584" />
+<holder label-id="8971588" />
+</annotation>
+<annotation annotation-set-id="361791" lexunit-annotation-id="589" sentence-apos="10445008">
+<target label-id="8973075" />
+<opinion label-id="8973067" />
+<opinion label-id="8973089" />
+<holder label-id="8973071" />
+</annotation>
+<annotation annotation-set-id="361887" lexunit-annotation-id="589" sentence-apos="8626739">
+<target label-id="8974002" />
+<opinion label-id="8974005" />
+<holder label-id="8973998" />
+</annotation>
+<annotation annotation-set-id="361997" lexunit-annotation-id="589" sentence-apos="19772826">
+<target label-id="8975259" />
+<opinion label-id="8975251" />
+<opinion label-id="8975275" />
+<holder label-id="8975255" />
+</annotation>
+<annotation annotation-set-id="362155" lexunit-annotation-id="590" sentence-apos="17830798">
+<target label-id="8976726" />
+<opinion label-id="8976722" />
+<opinion label-id="8976741" />
+<holder label-id="8976729" />
+</annotation>
+<annotation annotation-set-id="362161" lexunit-annotation-id="590" sentence-apos="19315050">
+<target label-id="8976804" />
+<opinion label-id="8976800" />
+<holder label-id="8976806" />
+</annotation>
+<annotation annotation-set-id="362181" lexunit-annotation-id="590" sentence-apos="79183075">
+<target label-id="8976979" />
+<opinion label-id="8976975" />
+<holder label-id="8976981" />
+</annotation>
+<annotation annotation-set-id="362205" lexunit-annotation-id="590" sentence-apos="79569130">
+<target label-id="8977259" />
+<opinion label-id="8977262" />
+<holder label-id="8977255" />
+</annotation>
+<annotation annotation-set-id="362207" lexunit-annotation-id="590" sentence-apos="58869540">
+<target label-id="8977272" />
+<opinion label-id="8977275" />
+<holder label-id="8977268" />
+</annotation>
+<annotation annotation-set-id="362399" lexunit-annotation-id="591" sentence-apos="76546748">
+<target label-id="8979227" />
+<opinion label-id="8979219" />
+<holder label-id="8979223" />
+</annotation>
+<annotation annotation-set-id="362405" lexunit-annotation-id="591" sentence-apos="26034771">
+<target label-id="8979285" />
+<opinion label-id="8979281" />
+<holder label-id="8979287" />
+</annotation>
+<annotation annotation-set-id="362549" lexunit-annotation-id="592" sentence-apos="100943114">
+<target label-id="8980625" />
+<opinion label-id="8980617" />
+<holder label-id="8980621" />
+</annotation>
+<annotation annotation-set-id="362849" lexunit-annotation-id="592" sentence-apos="48347995">
+<target label-id="8983687" />
+<opinion label-id="8983679" />
+<holder label-id="8983683" />
+</annotation>
+<annotation annotation-set-id="363099" lexunit-annotation-id="594" sentence-apos="4410805">
+<target label-id="8986235" />
+<opinion label-id="8986241" />
+</annotation>
+<annotation annotation-set-id="363371" lexunit-annotation-id="595" sentence-apos="13985603">
+<target label-id="8989514" />
+<opinion label-id="8989506" />
+<holder label-id="8989510" />
+</annotation>
+<annotation annotation-set-id="363389" lexunit-annotation-id="595" sentence-apos="49466790">
+<target label-id="8989695" />
+<opinion label-id="8989687" />
+<holder label-id="8989691" />
+</annotation>
+<annotation annotation-set-id="363395" lexunit-annotation-id="595" sentence-apos="70374284">
+<target label-id="8989747" />
+<opinion label-id="8989739" />
+<holder label-id="8989743" />
+</annotation>
+<annotation annotation-set-id="363413" lexunit-annotation-id="595" sentence-apos="30472415">
+<target label-id="8989886" />
+<opinion label-id="8989882" />
+<holder label-id="8989888" />
+</annotation>
+<annotation annotation-set-id="363447" lexunit-annotation-id="595" sentence-apos="104881422">
+<target label-id="8990135" />
+<opinion label-id="8990131" />
+<holder label-id="8990137" />
+</annotation>
+<annotation annotation-set-id="363449" lexunit-annotation-id="595" sentence-apos="3807711">
+<target label-id="8990148" />
+<opinion label-id="8990160" />
+<holder label-id="8990144" />
+</annotation>
+<annotation annotation-set-id="363451" lexunit-annotation-id="595" sentence-apos="3807775">
+<target label-id="8990182" />
+<opinion label-id="8990188" />
+<holder label-id="8990166" />
+</annotation>
+<annotation annotation-set-id="363467" lexunit-annotation-id="595" sentence-apos="106589352">
+<target label-id="8990388" />
+<opinion label-id="8990397" />
+<holder label-id="8990381" />
+</annotation>
+<annotation annotation-set-id="363525" lexunit-annotation-id="595" sentence-apos="32791308">
+<target label-id="8991065" />
+<opinion label-id="8991061" />
+<holder label-id="8991068" />
+</annotation>
+<annotation annotation-set-id="363535" lexunit-annotation-id="595" sentence-apos="1732451">
+<target label-id="8991197" />
+<opinion label-id="8991193" />
+<holder label-id="8991199" />
+</annotation>
+<annotation annotation-set-id="363787" lexunit-annotation-id="596" sentence-apos="8484566">
+<target label-id="8994012" />
+<opinion label-id="8994003" />
+<holder label-id="8994008" />
+</annotation>
+<annotation annotation-set-id="363793" lexunit-annotation-id="596" sentence-apos="31087073">
+<target label-id="8994067" />
+<opinion label-id="8994059" />
+<holder label-id="8994063" />
+</annotation>
+<annotation annotation-set-id="363813" lexunit-annotation-id="596" sentence-apos="77104047">
+<target label-id="8994244" />
+<opinion label-id="8994236" />
+<holder label-id="8994240" />
+</annotation>
+<annotation annotation-set-id="363833" lexunit-annotation-id="596" sentence-apos="16263968">
+<target label-id="8994424" />
+<opinion label-id="8994420" />
+<holder label-id="8994426" />
+</annotation>
+<annotation annotation-set-id="363845" lexunit-annotation-id="596" sentence-apos="64192530">
+<target label-id="8994495" />
+<opinion label-id="8994491" />
+<holder label-id="8994497" />
+</annotation>
+<annotation annotation-set-id="363867" lexunit-annotation-id="596" sentence-apos="5646480">
+<target label-id="8994728" />
+<opinion label-id="8994741" />
+<holder label-id="8994724" />
+</annotation>
+<annotation annotation-set-id="363875" lexunit-annotation-id="596" sentence-apos="10489056">
+<target label-id="8994841" />
+<opinion label-id="8994860" />
+<holder label-id="8994837" />
+</annotation>
+<annotation annotation-set-id="363877" lexunit-annotation-id="596" sentence-apos="21279051">
+<target label-id="8994877" />
+<opinion label-id="8994869" />
+<holder label-id="8994873" />
+</annotation>
+<annotation annotation-set-id="363897" lexunit-annotation-id="596" sentence-apos="87039642">
+<target label-id="8995081" />
+<opinion label-id="8995088" />
+<holder label-id="8995072" />
+</annotation>
+<annotation annotation-set-id="363913" lexunit-annotation-id="596" sentence-apos="17838437">
+<target label-id="8995300" />
+<opinion label-id="8995302" />
+<holder label-id="8995296" />
+</annotation>
+<annotation annotation-set-id="363921" lexunit-annotation-id="596" sentence-apos="95773111">
+<target label-id="8995442" />
+<opinion label-id="8995438" />
+<holder label-id="8995444" />
+</annotation>
+<annotation annotation-set-id="363939" lexunit-annotation-id="596" sentence-apos="54663193">
+<target label-id="8995691" />
+<opinion label-id="8995707" />
+<holder label-id="8995687" />
+</annotation>
+<annotation annotation-set-id="363941" lexunit-annotation-id="596" sentence-apos="75877135">
+<target label-id="8995721" />
+<opinion label-id="8995731" />
+<holder label-id="8995717" />
+</annotation>
+<annotation annotation-set-id="363989" lexunit-annotation-id="596" sentence-apos="15038479">
+<target label-id="8996292" />
+<opinion label-id="8996295" />
+<holder label-id="8996288" />
+</annotation>
+<annotation annotation-set-id="364099" lexunit-annotation-id="596" sentence-apos="3456854">
+<target label-id="8997561" />
+<opinion label-id="8997551" />
+<holder label-id="8997557" />
+</annotation>
+<annotation annotation-set-id="364291" lexunit-annotation-id="597" sentence-apos="77198452">
+<target label-id="8999480" />
+<opinion label-id="8999472" />
+<holder label-id="8999476" />
+</annotation>
+<annotation annotation-set-id="364293" lexunit-annotation-id="597" sentence-apos="77199269">
+<target label-id="8999494" />
+<opinion label-id="8999486" />
+<opinion label-id="8999508" />
+<holder label-id="8999490" />
+</annotation>
+<annotation annotation-set-id="364311" lexunit-annotation-id="597" sentence-apos="35136116">
+<target label-id="8999639" />
+<opinion label-id="8999635" />
+<holder label-id="8999641" />
+</annotation>
+<annotation annotation-set-id="364339" lexunit-annotation-id="597" sentence-apos="17850867">
+<target label-id="8999902" />
+<opinion label-id="8999898" />
+<opinion label-id="8999926" />
+<holder label-id="8999905" />
+</annotation>
+<annotation annotation-set-id="364507" lexunit-annotation-id="598" sentence-apos="100904197">
+<target label-id="9001716" />
+<opinion label-id="9001708" />
+<holder label-id="9001712" />
+</annotation>
+<annotation annotation-set-id="364911" lexunit-annotation-id="599" sentence-apos="8659295">
+<target label-id="9005958" />
+<opinion label-id="9005970" />
+</annotation>
+<annotation annotation-set-id="364965" lexunit-annotation-id="601" sentence-apos="71736881">
+<target label-id="9006664" />
+<opinion label-id="9006667" />
+<holder label-id="9006660" />
+</annotation>
+<annotation annotation-set-id="364967" lexunit-annotation-id="601" sentence-apos="26344091">
+<target label-id="9006690" />
+<opinion label-id="9006693" />
+<holder label-id="9006686" />
+</annotation>
+<annotation annotation-set-id="364995" lexunit-annotation-id="602" sentence-apos="62527652">
+<target label-id="9007006" />
+<opinion label-id="9006998" />
+<holder label-id="9007002" />
+</annotation>
+<annotation annotation-set-id="365003" lexunit-annotation-id="602" sentence-apos="75598902">
+<target label-id="9007109" />
+<opinion label-id="9007101" />
+<holder label-id="9007105" />
+</annotation>
+<annotation annotation-set-id="365005" lexunit-annotation-id="602" sentence-apos="8949975">
+<target label-id="9007120" />
+<opinion label-id="9007116" />
+<opinion label-id="9007137" />
+<holder label-id="9007123" />
+</annotation>
+<annotation annotation-set-id="365007" lexunit-annotation-id="602" sentence-apos="36226625">
+<target label-id="9007153" />
+<opinion label-id="9007149" />
+<holder label-id="9007156" />
+</annotation>
+<annotation annotation-set-id="365157" lexunit-annotation-id="602" sentence-apos="64934098">
+<target label-id="9008773" />
+<opinion label-id="9008765" />
+<opinion label-id="9008802" />
+<holder label-id="9008769" />
+</annotation>
+<annotation annotation-set-id="365271" lexunit-annotation-id="602" sentence-apos="67033799">
+<target label-id="9010106" />
+<opinion label-id="9010096" />
+<holder label-id="9010102" />
+</annotation>
+<annotation annotation-set-id="365369" lexunit-annotation-id="603" sentence-apos="1666677">
+<target label-id="9011022" />
+<opinion label-id="9011030" />
+<holder label-id="9011018" />
+</annotation>
+<annotation annotation-set-id="365371" lexunit-annotation-id="603" sentence-apos="17135707">
+<target label-id="9011043" />
+<opinion label-id="9011049" />
+<holder label-id="9011037" />
+</annotation>
+<annotation annotation-set-id="366007" lexunit-annotation-id="604" sentence-apos="79769549">
+<target label-id="9018451" />
+<opinion label-id="9018443" />
+<holder label-id="9018447" />
+</annotation>
+<annotation annotation-set-id="366031" lexunit-annotation-id="604" sentence-apos="8428754">
+<target label-id="9018655" />
+<opinion label-id="9018674" />
+<holder label-id="9018651" />
+</annotation>
+<annotation annotation-set-id="366037" lexunit-annotation-id="604" sentence-apos="34600562">
+<target label-id="9018764" />
+<opinion label-id="9018767" />
+<holder label-id="9018760" />
+</annotation>
+<annotation annotation-set-id="366287" lexunit-annotation-id="605" sentence-apos="38976318">
+<target label-id="9021615" />
+<opinion label-id="9021624" />
+<holder label-id="9021611" />
+</annotation>
+<annotation annotation-set-id="366665" lexunit-annotation-id="607" sentence-apos="79867153">
+<target label-id="9025424" />
+<opinion label-id="9025420" />
+<holder label-id="9025427" />
+</annotation>
+<annotation annotation-set-id="366897" lexunit-annotation-id="608" sentence-apos="8592395">
+<target label-id="9027965" />
+<opinion label-id="9027957" />
+<holder label-id="9027961" />
+</annotation>
+<annotation annotation-set-id="366945" lexunit-annotation-id="608" sentence-apos="34649999">
+<target label-id="9028359" />
+<opinion label-id="9028355" />
+<holder label-id="9028362" />
+</annotation>
+<annotation annotation-set-id="366969" lexunit-annotation-id="608" sentence-apos="83651047">
+<target label-id="9028576" />
+<opinion label-id="9028572" />
+<opinion label-id="9028593" />
+<holder label-id="9028578" />
+</annotation>
+<annotation annotation-set-id="367187" lexunit-annotation-id="609" sentence-apos="10634323">
+<target label-id="9030622" />
+<opinion label-id="9030618" />
+<holder label-id="9030624" />
+</annotation>
+<annotation annotation-set-id="367191" lexunit-annotation-id="609" sentence-apos="25447535">
+<target label-id="9030644" />
+<opinion label-id="9030640" />
+<holder label-id="9030646" />
+</annotation>
+<annotation annotation-set-id="367193" lexunit-annotation-id="609" sentence-apos="25449201">
+<target label-id="9030662" />
+<opinion label-id="9030658" />
+<holder label-id="9030664" />
+</annotation>
+<annotation annotation-set-id="367411" lexunit-annotation-id="611" sentence-apos="8934735">
+<target label-id="9033095" />
+<opinion label-id="9033087" />
+<holder label-id="9033091" />
+</annotation>
+<annotation annotation-set-id="367565" lexunit-annotation-id="612" sentence-apos="57469073">
+<target label-id="9034860" />
+<opinion label-id="9034852" />
+<holder label-id="9034856" />
+</annotation>
+<annotation annotation-set-id="367569" lexunit-annotation-id="612" sentence-apos="59891084">
+<target label-id="9034901" />
+<opinion label-id="9034893" />
+<holder label-id="9034897" />
+</annotation>
+<annotation annotation-set-id="367573" lexunit-annotation-id="612" sentence-apos="73503169">
+<target label-id="9034932" />
+<opinion label-id="9034923" />
+<holder label-id="9034928" />
+</annotation>
+<annotation annotation-set-id="367577" lexunit-annotation-id="612" sentence-apos="90731533">
+<target label-id="9034971" />
+<opinion label-id="9034963" />
+<holder label-id="9034967" />
+</annotation>
+<annotation annotation-set-id="367807" lexunit-annotation-id="613" sentence-apos="56858822">
+<target label-id="9037157" />
+<opinion label-id="9037153" />
+<opinion label-id="9037169" />
+<holder label-id="9037159" />
+</annotation>
+<annotation annotation-set-id="367839" lexunit-annotation-id="613" sentence-apos="24041303">
+<target label-id="9037493" />
+<opinion label-id="9037496" />
+<holder label-id="9037486" />
+</annotation>
+<annotation annotation-set-id="367957" lexunit-annotation-id="614" sentence-apos="30537396">
+<target label-id="9038677" />
+<opinion label-id="9038669" />
+<holder label-id="9038673" />
+</annotation>
+<annotation annotation-set-id="367975" lexunit-annotation-id="614" sentence-apos="80607207">
+<target label-id="9038833" />
+<opinion label-id="9038824" />
+<opinion label-id="9038856" />
+<holder label-id="9038829" />
+</annotation>
+<annotation annotation-set-id="367979" lexunit-annotation-id="614" sentence-apos="101309643">
+<target label-id="9038910" />
+<opinion label-id="9038902" />
+<holder label-id="9038906" />
+</annotation>
+<annotation annotation-set-id="367985" lexunit-annotation-id="614" sentence-apos="7978180">
+<target label-id="9038949" />
+<opinion label-id="9038945" />
+<opinion label-id="9038965" />
+<holder label-id="9038954" />
+</annotation>
+<annotation annotation-set-id="367987" lexunit-annotation-id="614" sentence-apos="25437999">
+<target label-id="9038979" />
+<opinion label-id="9038975" />
+<opinion label-id="9038998" />
+<holder label-id="9038982" />
+</annotation>
+<annotation annotation-set-id="368035" lexunit-annotation-id="614" sentence-apos="106233191">
+<target label-id="9039545" />
+<opinion label-id="9039541" />
+<holder label-id="9039553" />
+</annotation>
+<annotation annotation-set-id="368213" lexunit-annotation-id="616" sentence-apos="90441215">
+<target label-id="9041557" />
+<opinion label-id="9041553" />
+<holder label-id="9041559" />
+</annotation>
+<annotation annotation-set-id="368221" lexunit-annotation-id="616" sentence-apos="74461932">
+<target label-id="9041645" />
+<opinion label-id="9041641" />
+<holder label-id="9041647" />
+</annotation>
+<annotation annotation-set-id="368289" lexunit-annotation-id="617" sentence-apos="64933019">
+<target label-id="9042392" />
+<opinion label-id="9042383" />
+<holder label-id="9042388" />
+</annotation>
+<annotation annotation-set-id="368293" lexunit-annotation-id="617" sentence-apos="80622380">
+<target label-id="9042440" />
+<opinion label-id="9042432" />
+<opinion label-id="9042453" />
+<holder label-id="9042436" />
+</annotation>
+<annotation annotation-set-id="368299" lexunit-annotation-id="617" sentence-apos="13532715">
+<target label-id="9042519" />
+<opinion label-id="9042525" />
+<opinion label-id="9042542" />
+<holder label-id="9042515" />
+</annotation>
+<annotation annotation-set-id="368339" lexunit-annotation-id="617" sentence-apos="4489692">
+<target label-id="9043037" />
+<opinion label-id="9043043" />
+<holder label-id="9043031" />
+</annotation>
+<annotation annotation-set-id="368361" lexunit-annotation-id="617" sentence-apos="10107641">
+<target label-id="9043413" />
+<opinion label-id="9043418" />
+<holder label-id="9043407" />
+</annotation>
+<annotation annotation-set-id="368519" lexunit-annotation-id="618" sentence-apos="1446364">
+<target label-id="9045444" />
+<opinion label-id="9045434" />
+<opinion label-id="9045470" />
+<holder label-id="9045439" />
+</annotation>
+<annotation annotation-set-id="368557" lexunit-annotation-id="619" sentence-apos="73532849">
+<target label-id="9045886" />
+<opinion label-id="9045878" />
+<holder label-id="9045882" />
+</annotation>
+<annotation annotation-set-id="368559" lexunit-annotation-id="619" sentence-apos="74449117">
+<target label-id="9045910" />
+<opinion label-id="9045902" />
+<holder label-id="9045906" />
+</annotation>
+<annotation annotation-set-id="368585" lexunit-annotation-id="619" sentence-apos="10120351">
+<target label-id="9046146" />
+<opinion label-id="9046142" />
+<holder label-id="9046148" />
+</annotation>
+<annotation annotation-set-id="368807" lexunit-annotation-id="619" sentence-apos="80069412">
+<target label-id="9048539" />
+<opinion label-id="9048531" />
+<holder label-id="9048535" />
+</annotation>
+<annotation annotation-set-id="368861" lexunit-annotation-id="620" sentence-apos="69096309">
+<target label-id="9049193" />
+<opinion label-id="9049184" />
+<holder label-id="9049188" />
+</annotation>
+<annotation annotation-set-id="368871" lexunit-annotation-id="621" sentence-apos="32323496">
+<target label-id="9049337" />
+<opinion label-id="9049329" />
+<holder label-id="9049333" />
+</annotation>
+<annotation annotation-set-id="368873" lexunit-annotation-id="621" sentence-apos="32792635">
+<target label-id="9049351" />
+<opinion label-id="9049343" />
+<opinion label-id="9049371" />
+<holder label-id="9049347" />
+</annotation>
+<annotation annotation-set-id="369071" lexunit-annotation-id="622" sentence-apos="35157314">
+<target label-id="9051309" />
+<opinion label-id="9051305" />
+<holder label-id="9051311" />
+</annotation>
+<annotation annotation-set-id="369359" lexunit-annotation-id="623" sentence-apos="8898266">
+<target label-id="9054324" />
+<opinion label-id="9054313" />
+<holder label-id="9054320" />
+</annotation>
+<annotation annotation-set-id="369641" lexunit-annotation-id="625" sentence-apos="104835450">
+<target label-id="9057376" />
+<opinion label-id="9057386" />
+<holder label-id="9057367" />
+</annotation>
+<annotation annotation-set-id="370111" lexunit-annotation-id="625" sentence-apos="11581376">
+<target label-id="9062230" />
+<opinion label-id="9062241" />
+<holder label-id="9062226" />
+</annotation>
+<annotation annotation-set-id="370205" lexunit-annotation-id="626" sentence-apos="22965615">
+<target label-id="9063134" />
+<opinion label-id="9063130" />
+<holder label-id="9063137" />
+</annotation>
+<annotation annotation-set-id="1736551" lexunit-annotation-id="661" sentence-apos="57677549">
+<target label-id="28353732" />
+<opinion label-id="28353749" />
+<holder label-id="28353728" />
+</annotation>
+<annotation annotation-set-id="1736583" lexunit-annotation-id="661" sentence-apos="76503827">
+<target label-id="28354063" />
+<opinion label-id="28354078" />
+</annotation>
+<annotation annotation-set-id="1736675" lexunit-annotation-id="661" sentence-apos="15620659">
+<target label-id="28354898" />
+<opinion label-id="28354894" />
+</annotation>
+<annotation annotation-set-id="1737145" lexunit-annotation-id="661" sentence-apos="65118561">
+<target label-id="28360663" />
+<opinion label-id="28360654" />
+<holder label-id="28360659" />
+</annotation>
+<annotation annotation-set-id="1737183" lexunit-annotation-id="661" sentence-apos="36976506">
+<target label-id="28361025" />
+<opinion label-id="28361050" />
+<holder label-id="28361021" />
+</annotation>
+<annotation annotation-set-id="1737199" lexunit-annotation-id="661" sentence-apos="59007633">
+<target label-id="28361236" />
+<opinion label-id="28361228" />
+<opinion label-id="28361264" />
+<holder label-id="28361232" />
+</annotation>
+<annotation annotation-set-id="1737295" lexunit-annotation-id="661" sentence-apos="45801597">
+<target label-id="28362319" />
+<opinion label-id="28362311" />
+<holder label-id="28362315" />
+</annotation>
+<annotation annotation-set-id="1737435" lexunit-annotation-id="661" sentence-apos="89118826">
+<target label-id="28363811" />
+<opinion label-id="28363826" />
+<holder label-id="28363807" />
+</annotation>
+<annotation annotation-set-id="1738011" lexunit-annotation-id="663" sentence-apos="59226780">
+<target label-id="28370916" />
+<opinion label-id="28370908" />
+<holder label-id="28370912" />
+</annotation>
+<annotation annotation-set-id="1738019" lexunit-annotation-id="663" sentence-apos="68808225">
+<target label-id="28371026" />
+<opinion label-id="28371018" />
+<holder label-id="28371022" />
+</annotation>
+<annotation annotation-set-id="1738039" lexunit-annotation-id="663" sentence-apos="76219695">
+<target label-id="28371294" />
+<opinion label-id="28371286" />
+<holder label-id="28371290" />
+</annotation>
+<annotation annotation-set-id="1738137" lexunit-annotation-id="663" sentence-apos="63655324">
+<target label-id="28372634" />
+<opinion label-id="28372663" />
+<holder label-id="28372630" />
+</annotation>
+<annotation annotation-set-id="1738151" lexunit-annotation-id="663" sentence-apos="76208130">
+<target label-id="28372789" />
+<opinion label-id="28372781" />
+<holder label-id="28372785" />
+</annotation>
+<annotation annotation-set-id="1738155" lexunit-annotation-id="663" sentence-apos="103807468">
+<target label-id="28372830" />
+<opinion label-id="28372854" />
+<holder label-id="28372825" />
+</annotation>
+<annotation annotation-set-id="1738201" lexunit-annotation-id="663" sentence-apos="101015229">
+<target label-id="28373547" />
+<opinion label-id="28373539" />
+<opinion label-id="28373560" />
+<holder label-id="28373543" />
+</annotation>
+<annotation annotation-set-id="1738223" lexunit-annotation-id="663" sentence-apos="68782306">
+<target label-id="28373889" />
+<opinion label-id="28373881" />
+<holder label-id="28373885" />
+</annotation>
+<annotation annotation-set-id="1738287" lexunit-annotation-id="663" sentence-apos="17399736">
+<target label-id="28374638" />
+<opinion label-id="28374630" />
+<holder label-id="28374634" />
+</annotation>
+<annotation annotation-set-id="1738395" lexunit-annotation-id="663" sentence-apos="26965435">
+<target label-id="28376049" />
+<opinion label-id="28376045" />
+<holder label-id="28376051" />
+</annotation>
+<annotation annotation-set-id="1738409" lexunit-annotation-id="664" sentence-apos="14783525">
+<target label-id="28376191" />
+<opinion label-id="28376187" />
+<holder label-id="28376193" />
+</annotation>
+<annotation annotation-set-id="1738413" lexunit-annotation-id="664" sentence-apos="24554513">
+<target label-id="28376234" />
+<opinion label-id="28376230" />
+<holder label-id="28376237" />
+</annotation>
+<annotation annotation-set-id="1738415" lexunit-annotation-id="664" sentence-apos="24559436">
+<target label-id="28376256" />
+<opinion label-id="28376252" />
+<holder label-id="28376258" />
+</annotation>
+<annotation annotation-set-id="1738481" lexunit-annotation-id="664" sentence-apos="873674">
+<target label-id="28377030" />
+<opinion label-id="28377022" />
+<holder label-id="28377026" />
+</annotation>
+<annotation annotation-set-id="1738487" lexunit-annotation-id="664" sentence-apos="17423383">
+<target label-id="28377108" />
+<opinion label-id="28377100" />
+<holder label-id="28377104" />
+</annotation>
+<annotation annotation-set-id="1738497" lexunit-annotation-id="664" sentence-apos="59473697">
+<target label-id="28377235" />
+<opinion label-id="28377227" />
+<holder label-id="28377231" />
+</annotation>
+<annotation annotation-set-id="1738519" lexunit-annotation-id="664" sentence-apos="10953750">
+<target label-id="28377501" />
+</annotation>
+<annotation annotation-set-id="1738841" lexunit-annotation-id="667" sentence-apos="58815870">
+<target label-id="28381726" />
+<opinion label-id="28381722" />
+<opinion label-id="28381741" />
+<holder label-id="28381728" />
+</annotation>
+<annotation annotation-set-id="1738847" lexunit-annotation-id="667" sentence-apos="68731128">
+<target label-id="28381823" />
+<opinion label-id="28381819" />
+<holder label-id="28381825" />
+</annotation>
+<annotation annotation-set-id="1738861" lexunit-annotation-id="667" sentence-apos="108881842">
+<target label-id="28381992" />
+<opinion label-id="28381988" />
+<holder label-id="28381994" />
+</annotation>
+<annotation annotation-set-id="1739075" lexunit-annotation-id="667" sentence-apos="29091734">
+<target label-id="28384720" />
+<opinion label-id="28384712" />
+<holder label-id="28384716" />
+</annotation>
+<annotation annotation-set-id="1739089" lexunit-annotation-id="667" sentence-apos="12323280">
+<target label-id="28384916" />
+<opinion label-id="28384907" />
+<holder label-id="28384911" />
+</annotation>
+<annotation annotation-set-id="1739167" lexunit-annotation-id="667" sentence-apos="44497460">
+<target label-id="28385803" />
+<opinion label-id="28385795" />
+<holder label-id="28385799" />
+</annotation>
+<annotation annotation-set-id="1739201" lexunit-annotation-id="667" sentence-apos="4790228">
+<target label-id="28386116" />
+<opinion label-id="28386128" />
+<holder label-id="28386112" />
+</annotation>
+<annotation annotation-set-id="1739221" lexunit-annotation-id="667" sentence-apos="13080361">
+<target label-id="28386311" />
+<opinion label-id="28386320" />
+<holder label-id="28386306" />
+</annotation>
+<annotation annotation-set-id="1739235" lexunit-annotation-id="667" sentence-apos="106091874">
+<target label-id="28386466" />
+<opinion label-id="28386479" />
+<holder label-id="28386462" />
+</annotation>
+<annotation annotation-set-id="1739251" lexunit-annotation-id="667" sentence-apos="2556256">
+<target label-id="28386695" />
+<opinion label-id="28386711" />
+<holder label-id="28386691" />
+</annotation>
+<annotation annotation-set-id="1739255" lexunit-annotation-id="667" sentence-apos="9790322">
+<target label-id="28386734" />
+<opinion label-id="28386740" />
+<holder label-id="28386730" />
+</annotation>
+<annotation annotation-set-id="1739259" lexunit-annotation-id="667" sentence-apos="10711446">
+<target label-id="28386779" />
+<opinion label-id="28386806" />
+<holder label-id="28386775" />
+</annotation>
+<annotation annotation-set-id="1739273" lexunit-annotation-id="667" sentence-apos="88655211">
+<target label-id="28386970" />
+<opinion label-id="28386979" />
+<holder label-id="28386966" />
+</annotation>
+<annotation annotation-set-id="1739289" lexunit-annotation-id="667" sentence-apos="25242749">
+<target label-id="28387196" />
+<opinion label-id="28387192" />
+<holder label-id="28387198" />
+</annotation>
+<annotation annotation-set-id="1739291" lexunit-annotation-id="667" sentence-apos="58075901">
+<target label-id="28387214" />
+<opinion label-id="28387210" />
+<opinion label-id="28387240" />
+<holder label-id="28387217" />
+</annotation>
+<annotation annotation-set-id="1739333" lexunit-annotation-id="668" sentence-apos="75120458">
+<target label-id="28387665" />
+<opinion label-id="28387657" />
+<holder label-id="28387661" />
+</annotation>
+<annotation annotation-set-id="1739361" lexunit-annotation-id="668" sentence-apos="100999618">
+<target label-id="28388005" />
+<opinion label-id="28388032" />
+<holder label-id="28388001" />
+</annotation>
+<annotation annotation-set-id="1739377" lexunit-annotation-id="668" sentence-apos="14136382">
+<target label-id="28388209" />
+<opinion label-id="28388205" />
+<holder label-id="28388211" />
+</annotation>
+<annotation annotation-set-id="1739663" lexunit-annotation-id="668" sentence-apos="58571888">
+<target label-id="28391560" />
+<opinion label-id="28391552" />
+<holder label-id="28391556" />
+</annotation>
+<annotation annotation-set-id="1739669" lexunit-annotation-id="668" sentence-apos="64319350">
+<target label-id="28391627" />
+<opinion label-id="28391619" />
+<holder label-id="28391623" />
+</annotation>
+<annotation annotation-set-id="1739761" lexunit-annotation-id="668" sentence-apos="5788473">
+<target label-id="28392778" />
+<opinion label-id="28392806" />
+<holder label-id="28392774" />
+</annotation>
+<annotation annotation-set-id="1739765" lexunit-annotation-id="668" sentence-apos="12717102">
+<target label-id="28392832" />
+</annotation>
+<annotation annotation-set-id="1741309" lexunit-annotation-id="671" sentence-apos="76522330">
+<target label-id="28413716" />
+<opinion label-id="28413708" />
+<holder label-id="28413712" />
+</annotation>
+<annotation annotation-set-id="1741317" lexunit-annotation-id="671" sentence-apos="101097024">
+<target label-id="28413827" />
+<opinion label-id="28413819" />
+<holder label-id="28413823" />
+</annotation>
+<annotation annotation-set-id="1741323" lexunit-annotation-id="671" sentence-apos="101041344">
+<target label-id="28413927" />
+<opinion label-id="28413917" />
+<holder label-id="28413921" />
+</annotation>
+<annotation annotation-set-id="1741331" lexunit-annotation-id="671" sentence-apos="60024112">
+<target label-id="28414033" />
+<opinion label-id="28414024" />
+<holder label-id="28414029" />
+</annotation>
+<annotation annotation-set-id="1741337" lexunit-annotation-id="671" sentence-apos="48346347">
+<target label-id="28414103" />
+<opinion label-id="28414095" />
+<holder label-id="28414099" />
+</annotation>
+<annotation annotation-set-id="1741339" lexunit-annotation-id="671" sentence-apos="6645129">
+<target label-id="28414135" />
+<opinion label-id="28414131" />
+<holder label-id="28414137" />
+</annotation>
+<annotation annotation-set-id="1741353" lexunit-annotation-id="671" sentence-apos="80212221">
+<target label-id="28414307" />
+<opinion label-id="28414303" />
+<holder label-id="28414309" />
+</annotation>
+<annotation annotation-set-id="1741357" lexunit-annotation-id="671" sentence-apos="93319283">
+<target label-id="28414340" />
+<opinion label-id="28414336" />
+<opinion label-id="28414360" />
+<holder label-id="28414342" />
+</annotation>
+<annotation annotation-set-id="1741401" lexunit-annotation-id="671" sentence-apos="64234580">
+<target label-id="28414800" />
+<opinion label-id="28414792" />
+<holder label-id="28414796" />
+</annotation>
+<annotation annotation-set-id="1741409" lexunit-annotation-id="671" sentence-apos="90726754">
+<target label-id="28414866" />
+<opinion label-id="28414857" />
+<holder label-id="28414862" />
+</annotation>
+<annotation annotation-set-id="1741419" lexunit-annotation-id="671" sentence-apos="40971660">
+<target label-id="28415037" />
+<opinion label-id="28415056" />
+<holder label-id="28415032" />
+</annotation>
+<annotation annotation-set-id="1741423" lexunit-annotation-id="671" sentence-apos="60078651">
+<target label-id="28415101" />
+<opinion label-id="28415092" />
+<holder label-id="28415097" />
+</annotation>
+<annotation annotation-set-id="1741429" lexunit-annotation-id="671" sentence-apos="100733554">
+<target label-id="28415181" />
+<opinion label-id="28415173" />
+<holder label-id="28415177" />
+</annotation>
+<annotation annotation-set-id="1741439" lexunit-annotation-id="671" sentence-apos="4856552">
+<target label-id="28415288" />
+<opinion label-id="28415293" />
+<holder label-id="28415284" />
+</annotation>
+<annotation annotation-set-id="1741441" lexunit-annotation-id="671" sentence-apos="5325229">
+<target label-id="28415313" />
+<opinion label-id="28415324" />
+<holder label-id="28415300" />
+</annotation>
+<annotation annotation-set-id="1741447" lexunit-annotation-id="671" sentence-apos="43864645">
+<target label-id="28415395" />
+<opinion label-id="28415420" />
+<holder label-id="28415390" />
+</annotation>
+<annotation annotation-set-id="1741449" lexunit-annotation-id="671" sentence-apos="46812424">
+<target label-id="28415430" />
+<opinion label-id="28415449" />
+<holder label-id="28415425" />
+</annotation>
+<annotation annotation-set-id="1741453" lexunit-annotation-id="671" sentence-apos="53639858">
+<target label-id="28415507" />
+<opinion label-id="28415520" />
+<holder label-id="28415503" />
+</annotation>
+<annotation annotation-set-id="1741457" lexunit-annotation-id="671" sentence-apos="94110316">
+<target label-id="28415560" />
+<opinion label-id="28415575" />
+<holder label-id="28415556" />
+</annotation>
+<annotation annotation-set-id="1741459" lexunit-annotation-id="671" sentence-apos="94591451">
+<target label-id="28415590" />
+<opinion label-id="28415602" />
+<holder label-id="28415582" />
+</annotation>
+<annotation annotation-set-id="1741463" lexunit-annotation-id="671" sentence-apos="32625908">
+<target label-id="28415647" />
+<opinion label-id="28415642" />
+<opinion label-id="28415672" />
+<holder label-id="28415654" />
+</annotation>
+<annotation annotation-set-id="1741465" lexunit-annotation-id="671" sentence-apos="80200775">
+<target label-id="28415687" />
+<opinion label-id="28415683" />
+<holder label-id="28415689" />
+</annotation>
+<annotation annotation-set-id="474998" lexunit-annotation-id="673" sentence-apos="33481948">
+<target label-id="10325066" />
+<opinion label-id="10325079" />
+<holder label-id="10325061" />
+</annotation>
+<annotation annotation-set-id="475002" lexunit-annotation-id="673" sentence-apos="35357144">
+<target label-id="10325116" />
+<opinion label-id="10325134" />
+<holder label-id="10325112" />
+</annotation>
+<annotation annotation-set-id="475024" lexunit-annotation-id="673" sentence-apos="106307819">
+<target label-id="10325369" />
+<opinion label-id="10325389" />
+<holder label-id="10325365" />
+</annotation>
+<annotation annotation-set-id="475040" lexunit-annotation-id="673" sentence-apos="34207457">
+<target label-id="10325546" />
+<opinion label-id="10325541" />
+<holder label-id="10325549" />
+</annotation>
+<annotation annotation-set-id="475044" lexunit-annotation-id="673" sentence-apos="34824770">
+<target label-id="10325586" />
+<opinion label-id="10325582" />
+<holder label-id="10325589" />
+</annotation>
+<annotation annotation-set-id="475054" lexunit-annotation-id="673" sentence-apos="71543811">
+<target label-id="10325683" />
+<opinion label-id="10325679" />
+<holder label-id="10325685" />
+</annotation>
+<annotation annotation-set-id="475072" lexunit-annotation-id="673" sentence-apos="2427455">
+<target label-id="10326020" />
+</annotation>
+<annotation annotation-set-id="475078" lexunit-annotation-id="673" sentence-apos="28628794">
+<target label-id="10326210" />
+<opinion label-id="10326248" />
+</annotation>
+<annotation annotation-set-id="475080" lexunit-annotation-id="673" sentence-apos="28722629">
+<target label-id="10326284" />
+<opinion label-id="10326313" />
+<holder label-id="10326266" />
+</annotation>
+<annotation annotation-set-id="475092" lexunit-annotation-id="673" sentence-apos="57798355">
+<target label-id="10326636" />
+<opinion label-id="10326671" />
+</annotation>
+<annotation annotation-set-id="475094" lexunit-annotation-id="673" sentence-apos="62807035">
+<target label-id="10326726" />
+<opinion label-id="10326733" />
+<holder label-id="10326714" />
+</annotation>
+<annotation annotation-set-id="475102" lexunit-annotation-id="673" sentence-apos="102449190">
+<target label-id="10326883" />
+<opinion label-id="10326898" />
+<holder label-id="10326878" />
+</annotation>
+<annotation annotation-set-id="475104" lexunit-annotation-id="673" sentence-apos="105552807">
+<target label-id="10326927" />
+<opinion label-id="10326943" />
+<holder label-id="10326922" />
+</annotation>
+<annotation annotation-set-id="475110" lexunit-annotation-id="673" sentence-apos="105533003">
+<target label-id="10327064" />
+<opinion label-id="10327112" />
+<holder label-id="10327060" />
+</annotation>
+<annotation annotation-set-id="475124" lexunit-annotation-id="673" sentence-apos="83296510">
+<target label-id="10327424" />
+<opinion label-id="10327485" />
+</annotation>
+<annotation annotation-set-id="475482" lexunit-annotation-id="673" sentence-apos="24573497">
+<target label-id="10336437" />
+<opinion label-id="10336428" />
+<opinion label-id="10336473" />
+<holder label-id="10336433" />
+</annotation>
+<annotation annotation-set-id="475518" lexunit-annotation-id="673" sentence-apos="70575448">
+<target label-id="10337328" />
+<opinion label-id="10337319" />
+<opinion label-id="10337345" />
+<holder label-id="10337324" />
+</annotation>
+<annotation annotation-set-id="475608" lexunit-annotation-id="673" sentence-apos="90244827">
+<target label-id="10339349" />
+<opinion label-id="10339373" />
+<holder label-id="10339334" />
+</annotation>
+<annotation annotation-set-id="475620" lexunit-annotation-id="673" sentence-apos="101408983">
+<target label-id="10339500" />
+<opinion label-id="10339492" />
+<holder label-id="10339496" />
+</annotation>
+<annotation annotation-set-id="475700" lexunit-annotation-id="673" sentence-apos="117354817">
+<target label-id="10340440" />
+<opinion label-id="10340476" />
+<holder label-id="10340432" />
+</annotation>
+<annotation annotation-set-id="941816" lexunit-annotation-id="699" sentence-apos="19731602">
+<target label-id="18463388" />
+<opinion label-id="18463374" />
+<holder label-id="18463383" />
+</annotation>
+<annotation annotation-set-id="941840" lexunit-annotation-id="699" sentence-apos="81718337">
+<target label-id="18463744" />
+<opinion label-id="18463771" />
+<holder label-id="18463740" />
+</annotation>
+<annotation annotation-set-id="941898" lexunit-annotation-id="699" sentence-apos="19308086">
+<target label-id="18464360" />
+<opinion label-id="18464356" />
+<holder label-id="18464362" />
+</annotation>
+<annotation annotation-set-id="941930" lexunit-annotation-id="699" sentence-apos="106301334">
+<target label-id="18464717" />
+<opinion label-id="18464713" />
+<opinion label-id="18464739" />
+<holder label-id="18464719" />
+</annotation>
+<annotation annotation-set-id="942092" lexunit-annotation-id="699" sentence-apos="44923429">
+<target label-id="18466737" />
+<opinion label-id="18466769" />
+</annotation>
+<annotation annotation-set-id="942110" lexunit-annotation-id="699" sentence-apos="44362457">
+<target label-id="18467029" />
+<opinion label-id="18467046" />
+<holder label-id="18467025" />
+</annotation>
+<annotation annotation-set-id="942114" lexunit-annotation-id="699" sentence-apos="11950756">
+<target label-id="18467095" />
+<opinion label-id="18467087" />
+<holder label-id="18467091" />
+</annotation>
+<annotation annotation-set-id="942180" lexunit-annotation-id="699" sentence-apos="69992895">
+<target label-id="18467974" />
+<opinion label-id="18467966" />
+<holder label-id="18467970" />
+</annotation>
+<annotation annotation-set-id="942234" lexunit-annotation-id="699" sentence-apos="106742381">
+<target label-id="18468672" />
+<opinion label-id="18468686" />
+<holder label-id="18468668" />
+</annotation>
+<annotation annotation-set-id="942240" lexunit-annotation-id="699" sentence-apos="18578050">
+<target label-id="18468768" />
+<opinion label-id="18468794" />
+</annotation>
+<annotation annotation-set-id="942322" lexunit-annotation-id="699" sentence-apos="103966194">
+<target label-id="18469911" />
+<opinion label-id="18469907" />
+<holder label-id="18469917" />
+</annotation>
+<annotation annotation-set-id="950397" lexunit-annotation-id="721" sentence-apos="58274047">
+<target label-id="18575383" />
+<opinion label-id="18575375" />
+<holder label-id="18575379" />
+</annotation>
+<annotation annotation-set-id="1699581" lexunit-annotation-id="7388" sentence-apos="83999483">
+<target label-id="27911732" />
+<opinion label-id="27911744" />
+<holder label-id="27911727" />
+</annotation>
+<annotation annotation-set-id="995923" lexunit-annotation-id="755" sentence-apos="94580303">
+<target label-id="19187850" />
+<opinion label-id="19187870" />
+<holder label-id="19187836" />
+</annotation>
+<annotation annotation-set-id="995927" lexunit-annotation-id="755" sentence-apos="25975642">
+<target label-id="19187932" />
+<opinion label-id="19187924" />
+<opinion label-id="19187952" />
+</annotation>
+<annotation annotation-set-id="995935" lexunit-annotation-id="755" sentence-apos="44821534">
+<target label-id="19188033" />
+<opinion label-id="19188048" />
+<holder label-id="19188028" />
+</annotation>
+<annotation annotation-set-id="995939" lexunit-annotation-id="755" sentence-apos="49474451">
+<target label-id="19188095" />
+<opinion label-id="19188109" />
+<holder label-id="19188090" />
+</annotation>
+<annotation annotation-set-id="995959" lexunit-annotation-id="755" sentence-apos="93816531">
+<target label-id="19188362" />
+<opinion label-id="19188386" />
+</annotation>
+<annotation annotation-set-id="995981" lexunit-annotation-id="755" sentence-apos="46154006">
+<target label-id="19188693" />
+<opinion label-id="19188718" />
+<holder label-id="19188688" />
+</annotation>
+<annotation annotation-set-id="996013" lexunit-annotation-id="755" sentence-apos="38242144">
+<target label-id="19189059" />
+</annotation>
+<annotation annotation-set-id="996015" lexunit-annotation-id="755" sentence-apos="39048838">
+<target label-id="19189096" />
+</annotation>
+<annotation annotation-set-id="996063" lexunit-annotation-id="755" sentence-apos="40970372">
+<target label-id="19189617" />
+</annotation>
+<annotation annotation-set-id="996071" lexunit-annotation-id="755" sentence-apos="1160181">
+<target label-id="19189739" />
+<opinion label-id="19189767" />
+<holder label-id="19189735" />
+</annotation>
+<annotation annotation-set-id="996073" lexunit-annotation-id="755" sentence-apos="54982861">
+<target label-id="19189778" />
+<opinion label-id="19189804" />
+<holder label-id="19189773" />
+</annotation>
+<annotation annotation-set-id="996089" lexunit-annotation-id="755" sentence-apos="29966988">
+<target label-id="19190012" />
+<opinion label-id="19190037" />
+<holder label-id="19190008" />
+</annotation>
+<annotation annotation-set-id="996117" lexunit-annotation-id="755" sentence-apos="91537548">
+<target label-id="19190443" />
+<opinion label-id="19190481" />
+<holder label-id="19190438" />
+</annotation>
+<annotation annotation-set-id="996121" lexunit-annotation-id="755" sentence-apos="106577555">
+<target label-id="19190523" />
+<opinion label-id="19190542" />
+<holder label-id="19190518" />
+</annotation>
+<annotation annotation-set-id="996159" lexunit-annotation-id="755" sentence-apos="29614686">
+<target label-id="19191030" />
+<opinion label-id="19191022" />
+<opinion label-id="19191047" />
+<holder label-id="19191026" />
+</annotation>
+<annotation annotation-set-id="996165" lexunit-annotation-id="755" sentence-apos="38349203">
+<target label-id="19191095" />
+</annotation>
+<annotation annotation-set-id="996251" lexunit-annotation-id="755" sentence-apos="57280371">
+<target label-id="19192123" />
+<opinion label-id="19192129" />
+<holder label-id="19192119" />
+</annotation>
+<annotation annotation-set-id="996289" lexunit-annotation-id="755" sentence-apos="28254741">
+<target label-id="19192562" />
+<opinion label-id="19192574" />
+</annotation>
+<annotation annotation-set-id="996311" lexunit-annotation-id="755" sentence-apos="59683762">
+<target label-id="19192848" />
+<opinion label-id="19192862" />
+</annotation>
+<annotation annotation-set-id="316355" lexunit-annotation-id="80" sentence-apos="93323546">
+<target label-id="8402550" />
+<opinion label-id="8402546" />
+<holder label-id="8402552" />
+</annotation>
+<annotation annotation-set-id="321985" lexunit-annotation-id="94" sentence-apos="56801745">
+<target label-id="8463325" />
+<opinion label-id="8463317" />
+<holder label-id="8463321" />
+</annotation>
+<annotation annotation-set-id="319811" lexunit-annotation-id="9825" sentence-apos="29091142">
+<target label-id="8439912" />
+<opinion label-id="8439908" />
+</annotation>
+<annotation annotation-set-id="323037" lexunit-annotation-id="9826" sentence-apos="36803050">
+<target label-id="8473910" />
+<opinion label-id="8473906" />
+<holder label-id="8473912" />
+</annotation>
+</annotations>

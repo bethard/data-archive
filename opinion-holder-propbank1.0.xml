@@ -1,0 +1,2725 @@
+<annotations>
+<!-- 
+This is a stand-off markup that identifies opinions and opinion holders by
+describing their location in TreeBank trees. To use this data, you will
+need to obtain a recent copy of the Penn TreeBank:
+
+    http://www.ldc.upenn.edu/Catalog/CatalogEntry.jsp?catalogId=LDC99T42
+
+Each annotation gives the name of the TreeBank .mrg file and the number of
+the sentence within that file containing the opinion proposition. The
+target verb, opinion holder and opinion are all identified with tree paths,
+where a path like 0,1,2 means:
+
+    child 2 of child 1 of child 0 of the root node
+ -->
+<annotation mrg="wsj/00/wsj_0003.mrg" sentence="18">
+<target tree-path="0,2,1,1,1,1,1,0" />
+<opinion tree-path="0,2,1,1,1,1,1,1,1" />
+<holder tree-path="0,2,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0020.mrg" sentence="5">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0034.mrg" sentence="32">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0041.mrg" sentence="34">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="3,1,1,1,2,3,2,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0043.mrg" sentence="1">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,1,1" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0044.mrg" sentence="82">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,1,1,1,1,1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0044.mrg" sentence="104">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0051.mrg" sentence="21">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0057.mrg" sentence="14">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0059.mrg" sentence="15">
+<target tree-path="1,2,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0060.mrg" sentence="11">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0062.mrg" sentence="28">
+<target tree-path="3,0" />
+<opinion tree-path="3,3" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0080.mrg" sentence="13">
+<target tree-path="1,2,4,1,1,1,1,0" />
+<opinion tree-path="1,2,4,1,1,1,1,1,1" />
+<holder tree-path="1,2,4,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0082.mrg" sentence="11">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0085.mrg" sentence="52">
+<target tree-path="4,1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="4,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="1" />
+<holder tree-path="4,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0088.mrg" sentence="2">
+<target tree-path="2,3,1,0" />
+<opinion tree-path="2,3,1,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0088.mrg" sentence="22">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0089.mrg" sentence="61">
+<target tree-path="1,4,0" />
+<opinion tree-path="1,4,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0090.mrg" sentence="42">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0090.mrg" sentence="14">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0090.mrg" sentence="17">
+<target tree-path="0,3,0" />
+<opinion tree-path="0,3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0093.mrg" sentence="5">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0093.mrg" sentence="5">
+<target tree-path="1,2,1,1,1,1,1,4,1,1,1,1,1,1,1,0" />
+<opinion tree-path="1,2,1,1,1,1,1,4,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="1,2,1,1,1,1,1,4,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0093.mrg" sentence="8">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0093.mrg" sentence="11">
+<target tree-path="3,0,0" />
+<opinion tree-path="3,0,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0093.mrg" sentence="11">
+<target tree-path="3,3,1" />
+<opinion tree-path="3,3,2,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0094.mrg" sentence="0">
+<target tree-path="1,3,1,1,0" />
+<opinion tree-path="1,3,1,1,2,1,1" />
+<holder tree-path="1,3,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0094.mrg" sentence="3">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0094.mrg" sentence="9">
+<target tree-path="1,1,2,1,1,0" />
+<opinion tree-path="1,1,2,1,1,1,1" />
+<holder tree-path="1,1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0094.mrg" sentence="11">
+<target tree-path="3,1,1,0" />
+<opinion tree-path="3,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0096.mrg" sentence="30">
+<target tree-path="1,2,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/00/wsj_0098.mrg" sentence="2">
+<target tree-path="1,3,1,1,0" />
+<opinion tree-path="1,3,1,1,1,1" />
+<holder tree-path="1,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0100.mrg" sentence="18">
+<target tree-path="5,1,1,2,1,1,2,0" />
+<opinion tree-path="5,1,1,2,1,1,2,1,1" />
+<holder tree-path="5,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0100.mrg" sentence="19">
+<target tree-path="2,4,1,0" />
+<opinion tree-path="2,4,1,1" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0105.mrg" sentence="31">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0107.mrg" sentence="2">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0108.mrg" sentence="42">
+<target tree-path="3,1,1,3,1,0" />
+<opinion tree-path="3,1,1,3,1,2,1" />
+<holder tree-path="3,1,1,3,1,2,1,1,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0109.mrg" sentence="36">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0112.mrg" sentence="44">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0112.mrg" sentence="11">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0117.mrg" sentence="12">
+<target tree-path="1,2,1,1,1,4,1,1,0" />
+<opinion tree-path="1,2,1,1,1,4,1,1,1,1" />
+<holder tree-path="1,2,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0118.mrg" sentence="118">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0118.mrg" sentence="72">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0118.mrg" sentence="160">
+<target tree-path="1,2,1,1,1,1,0" />
+<opinion tree-path="1,2,1,1,1,1,2,0" />
+<holder tree-path="1,2,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0118.mrg" sentence="104">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0119.mrg" sentence="17">
+<target tree-path="5,0" />
+<opinion tree-path="1" />
+<holder tree-path="4" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0121.mrg" sentence="10">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,2" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0121.mrg" sentence="35">
+<target tree-path="1,2,1,1,0" />
+<opinion tree-path="1,2,1,1,1,1" />
+<holder tree-path="1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0121.mrg" sentence="43">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0128.mrg" sentence="14">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="4,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0130.mrg" sentence="30">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0158.mrg" sentence="10">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="1,3,0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0174.mrg" sentence="1">
+<target tree-path="4,2,0" />
+<opinion tree-path="4,2,2,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0174.mrg" sentence="13">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1,1" />
+<holder tree-path="0,1,0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0179.mrg" sentence="5">
+<target tree-path="3,0" />
+<opinion tree-path="3,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0179.mrg" sentence="34">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0181.mrg" sentence="3">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0186.mrg" sentence="3">
+<target tree-path="0,1,1,1,1,1,1,0" />
+<opinion tree-path="0,1,1,1,1,1,1,1,1" />
+<holder tree-path="0,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/01/wsj_0194.mrg" sentence="26">
+<target tree-path="1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0203.mrg" sentence="13">
+<target tree-path="1,0" />
+<opinion tree-path="1,6,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0224.mrg" sentence="39">
+<target tree-path="1,2,1,1,1,1,2,1,1,0" />
+<opinion tree-path="1,2,1,1,1,1,2,1,1,2,1,1" />
+<holder tree-path="1,2,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0224.mrg" sentence="11">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0224.mrg" sentence="37">
+<target tree-path="1,1,2,3,1,1,1,0" />
+<opinion tree-path="1,1,2,3,1,1,1,1,1" />
+<holder tree-path="1,1,2,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0224.mrg" sentence="35">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0240.mrg" sentence="12">
+<target tree-path="4,2,1,1,1,0" />
+<opinion tree-path="4,2,1,1,1,1,1" />
+<holder tree-path="4,2,1,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0242.mrg" sentence="25">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0242.mrg" sentence="3">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0250.mrg" sentence="12">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0250.mrg" sentence="21">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0258.mrg" sentence="9">
+<target tree-path="1,1,1" />
+<opinion tree-path="1,1,2,1" />
+<holder tree-path="5" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0259.mrg" sentence="8">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0267.mrg" sentence="92">
+<target tree-path="1,3,1,1,1,1,0,1,1,1,1,1,1,0" />
+<opinion tree-path="2" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0268.mrg" sentence="2">
+<target tree-path="1,1,2,1,1,1,1,1,1,1,2,0" />
+<opinion tree-path="1,1,2,1,1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0275.mrg" sentence="4">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0275.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0277.mrg" sentence="28">
+<target tree-path="1,1,1,1,2,1,1,1,2,1,1,5,1,1,1,3,1" />
+<opinion tree-path="1,1,1,1,2,1,1,1,2,1,1,5,1,1,1,3,2" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0278.mrg" sentence="16">
+<target tree-path="3,0,0" />
+<opinion tree-path="3,0,2,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0278.mrg" sentence="23">
+<target tree-path="4,2,1,1,2,0" />
+<opinion tree-path="4,2,1,1,2,1,1" />
+<holder tree-path="4,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0279.mrg" sentence="7">
+<target tree-path="3,3,1,0" />
+<opinion tree-path="3,3,1,1,1" />
+<holder tree-path="3,3,0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0280.mrg" sentence="21">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0280.mrg" sentence="54">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0285.mrg" sentence="6">
+<target tree-path="5,5,1,1,0" />
+<opinion tree-path="5,5,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0288.mrg" sentence="34">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0291.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0295.mrg" sentence="7">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0295.mrg" sentence="6">
+<target tree-path="1,2,2,1,4,3,1,0" />
+<opinion tree-path="1,2,2,1,4,3,1,1,1" />
+<holder tree-path="1,2,2,1,4,3,0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0295.mrg" sentence="42">
+<target tree-path="3,3,1,0" />
+<opinion tree-path="3,3,1,1,1" />
+<holder tree-path="3,3,0,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0296.mrg" sentence="17">
+<target tree-path="4,0" />
+<opinion tree-path="4,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/02/wsj_0296.mrg" sentence="27">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0301.mrg" sentence="28">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0301.mrg" sentence="43">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0305.mrg" sentence="14">
+<target tree-path="2,1,2,1,1,0" />
+<opinion tree-path="2,1,2,1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0309.mrg" sentence="23">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0317.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0317.mrg" sentence="61">
+<target tree-path="1,1,2,0" />
+<opinion tree-path="1,1,2,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0326.mrg" sentence="13">
+<target tree-path="2,2,1,0" />
+<opinion tree-path="2,2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0331.mrg" sentence="21">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0343.mrg" sentence="10">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0351.mrg" sentence="23">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0351.mrg" sentence="76">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0360.mrg" sentence="20">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/03/wsj_0360.mrg" sentence="1">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0401.mrg" sentence="4">
+<target tree-path="2,0" />
+<opinion tree-path="0" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0404.mrg" sentence="19">
+<target tree-path="5,3,1,3,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="5,3,1,3,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0404.mrg" sentence="19">
+<target tree-path="5,3,1,3,1,0" />
+<opinion tree-path="5,3,1,3,1,1,1" />
+<holder tree-path="5,3,1,3,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0405.mrg" sentence="28">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0409.mrg" sentence="35">
+<target tree-path="1,3,0" />
+<opinion tree-path="1,3,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0414.mrg" sentence="34">
+<target tree-path="1,1" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0423.mrg" sentence="21">
+<target tree-path="7,1,1,4,1,1,0" />
+<opinion tree-path="7,1,1,4,1,1,3" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0423.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0426.mrg" sentence="25">
+<target tree-path="4,0" />
+<opinion tree-path="1" />
+<holder tree-path="5" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0426.mrg" sentence="29">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0426.mrg" sentence="40">
+<target tree-path="0,0,1,1,2,1,1,1,1,0" />
+<opinion tree-path="0,0,1,1,2,1,1,1,1,2,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0426.mrg" sentence="34">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0427.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,2,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0439.mrg" sentence="8">
+<target tree-path="0,2,0" />
+<opinion tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0439.mrg" sentence="5">
+<target tree-path="3,1" />
+<opinion tree-path="3,2,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0439.mrg" sentence="4">
+<target tree-path="1,1,2,0" />
+<opinion tree-path="1,1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0439.mrg" sentence="19">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0441.mrg" sentence="13">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0447.mrg" sentence="19">
+<target tree-path="3,1,1,0" />
+<opinion tree-path="3,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0449.mrg" sentence="35">
+<target tree-path="1,1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1,2" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0449.mrg" sentence="54">
+<target tree-path="4,1,1,1,1,0" />
+<opinion tree-path="4,1,1,1,1,2,1" />
+<holder tree-path="4,1,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0449.mrg" sentence="34">
+<target tree-path="5,0" />
+<opinion tree-path="5,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0455.mrg" sentence="26">
+<target tree-path="1,5,1,0" />
+<opinion tree-path="1,5,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0458.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0465.mrg" sentence="55">
+<target tree-path="4,0,0" />
+<opinion tree-path="4,0,1,1" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0466.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0466.mrg" sentence="28">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0466.mrg" sentence="10">
+<target tree-path="2,1,1,1,1,1,0" />
+<opinion tree-path="2,1,1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0466.mrg" sentence="30">
+<target tree-path="4,0" />
+<opinion tree-path="4,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0467.mrg" sentence="8">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="1,3,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0469.mrg" sentence="33">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0472.mrg" sentence="7">
+<target tree-path="4,1" />
+<opinion tree-path="4,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0474.mrg" sentence="7">
+<target tree-path="4,2,0" />
+<opinion tree-path="4,2,1,1" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0474.mrg" sentence="10">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0474.mrg" sentence="10">
+<target tree-path="1,1,1,1,1,1,1,2,0" />
+<opinion tree-path="1,1,1,1,1,1,1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0475.mrg" sentence="12">
+<target tree-path="3,1" />
+<opinion tree-path="3,2,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0477.mrg" sentence="9">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0477.mrg" sentence="23">
+<target tree-path="2,0" />
+<opinion tree-path="2,4,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0485.mrg" sentence="7">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="1,3,0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0488.mrg" sentence="5">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0490.mrg" sentence="29">
+<target tree-path="3,0" />
+<opinion tree-path="3,2,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0490.mrg" sentence="31">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0490.mrg" sentence="17">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/04/wsj_0499.mrg" sentence="1">
+<target tree-path="1,2,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0501.mrg" sentence="0">
+<target tree-path="1,2,1,0" />
+<opinion tree-path="1,2,1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0501.mrg" sentence="20">
+<target tree-path="2,0" />
+<opinion tree-path="2,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0509.mrg" sentence="14">
+<target tree-path="3,1,0" />
+<opinion tree-path="1" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0515.mrg" sentence="39">
+<target tree-path="3,0" />
+<opinion tree-path="3,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0518.mrg" sentence="29">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0518.mrg" sentence="32">
+<target tree-path="2,2,1,2,1,4,0" />
+<opinion tree-path="2,2,1,2,1,1,1" />
+<holder tree-path="2,2,1,2,1,5" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0524.mrg" sentence="35">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0524.mrg" sentence="66">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0532.mrg" sentence="5">
+<target tree-path="2,0" />
+<opinion tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0542.mrg" sentence="8">
+<target tree-path="1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0550.mrg" sentence="20">
+<target tree-path="3,3,2,1,1,1,0" />
+<opinion tree-path="3,3,2,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0553.mrg" sentence="8">
+<target tree-path="1,1,2,1,1,0" />
+<opinion tree-path="1,1,2,1,1,1,1" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0560.mrg" sentence="23">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0561.mrg" sentence="23">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1" />
+<holder tree-path="3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0562.mrg" sentence="3">
+<target tree-path="1,1,2,1,0" />
+<opinion tree-path="1,1,2,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0562.mrg" sentence="42">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0564.mrg" sentence="1">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0564.mrg" sentence="16">
+<target tree-path="1,2,2,1,1,1,0" />
+<opinion tree-path="1,2,2,1,1,1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0569.mrg" sentence="8">
+<target tree-path="2,1,1,4,0" />
+<opinion tree-path="2,1,1,4,1,1" />
+<holder tree-path="2,1,1,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0569.mrg" sentence="13">
+<target tree-path="0,1,1,1,0" />
+<opinion tree-path="0,1,1,1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0569.mrg" sentence="37">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0576.mrg" sentence="9">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0576.mrg" sentence="8">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0576.mrg" sentence="2">
+<target tree-path="2,3,1,1,3,1,0,0" />
+<opinion tree-path="2,3,1,1,3,1,0,1,1" />
+<holder tree-path="2,2,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0578.mrg" sentence="40">
+<target tree-path="4,1,1,4,3,0" />
+<opinion tree-path="4,1,1,4,3,1" />
+<holder tree-path="4,1,1,2" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0578.mrg" sentence="53">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0584.mrg" sentence="31">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0585.mrg" sentence="13">
+<target tree-path="5,2,1,2,0" />
+<opinion tree-path="5,2,1,2,1,1" />
+<holder tree-path="5,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0590.mrg" sentence="26">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0590.mrg" sentence="28">
+<target tree-path="2,1,1,0" />
+<opinion tree-path="2,1,1,2,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0590.mrg" sentence="13">
+<target tree-path="1,2,1,1,0" />
+<opinion tree-path="1,2,1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0591.mrg" sentence="16">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0591.mrg" sentence="38">
+<target tree-path="1,1,1,3,0" />
+<opinion tree-path="1,1,1,3,1,1" />
+<holder tree-path="1,1,1,2,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0596.mrg" sentence="15">
+<target tree-path="3,2,2,1,1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="3,2,2,1,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="3,2,2,1,1,1,1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0596.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/05/wsj_0596.mrg" sentence="32">
+<target tree-path="4,0" />
+<opinion tree-path="1" />
+<holder tree-path="5,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0601.mrg" sentence="6">
+<target tree-path="1,1,2,1,2,1,1,0" />
+<opinion tree-path="1,1,2,1,2,1,1,1,1" />
+<holder tree-path="1,1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0601.mrg" sentence="21">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0601.mrg" sentence="28">
+<target tree-path="4,3,0" />
+<opinion tree-path="4,3,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0609.mrg" sentence="14">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0609.mrg" sentence="19">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="1,1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0609.mrg" sentence="23">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0609.mrg" sentence="29">
+<target tree-path="1,1,1,1,1,1,1,1,2,4,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1,2,4,1,1,1" />
+<holder tree-path="1,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0609.mrg" sentence="32">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0609.mrg" sentence="18">
+<target tree-path="1,0,0" />
+<opinion tree-path="1,0,1,1" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0616.mrg" sentence="6">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0,1" />
+<holder tree-path="1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0617.mrg" sentence="46">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0622.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0624.mrg" sentence="8">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0648.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0664.mrg" sentence="36">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0666.mrg" sentence="17">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0681.mrg" sentence="59">
+<target tree-path="3,1,2,1,1,0" />
+<opinion tree-path="3,1,2,1,1,1,1" />
+<holder tree-path="3,1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0681.mrg" sentence="30">
+<target tree-path="2,1,1,2,1,5,1,0" />
+<opinion tree-path="2,1,1,2,1,5,1,1,1" />
+<holder tree-path="2,1,1,2,0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0681.mrg" sentence="10">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0681.mrg" sentence="14">
+<target tree-path="1,0" />
+<opinion tree-path="1,4,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0690.mrg" sentence="15">
+<target tree-path="1,2,2,0" />
+<opinion tree-path="1,2,2,1,1" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0692.mrg" sentence="54">
+<target tree-path="1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0692.mrg" sentence="15">
+<target tree-path="2,1,1,1,0" />
+<opinion tree-path="6" />
+</annotation>
+<annotation mrg="wsj/06/wsj_0693.mrg" sentence="18">
+<target tree-path="1,1,2,1,2,1,2,0,0" />
+<opinion tree-path="1,1,2,1,2,1,2,0,1" />
+<holder tree-path="1,1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0700.mrg" sentence="9">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0723.mrg" sentence="5">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0723.mrg" sentence="13">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0,1" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0728.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0732.mrg" sentence="15">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0747.mrg" sentence="1">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0748.mrg" sentence="4">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0748.mrg" sentence="10">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0748.mrg" sentence="12">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0748.mrg" sentence="5">
+<target tree-path="0,2,0" />
+<opinion tree-path="0,2,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0758.mrg" sentence="9">
+<target tree-path="3,1,2,1,2,1,2,1,0,1,1,1,1,0" />
+<opinion tree-path="3,1,2,1,2,1,2,1,0,1,0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0758.mrg" sentence="62">
+<target tree-path="4,0" />
+<opinion tree-path="4,2" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0765.mrg" sentence="76">
+<target tree-path="1,1,1,1,2,1,1,0" />
+<opinion tree-path="1,1,1,1,2,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0765.mrg" sentence="78">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0765.mrg" sentence="91">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0765.mrg" sentence="88">
+<target tree-path="0,1,1,3,1,1,0" />
+<opinion tree-path="0,1,1,3,1,1,1,1" />
+<holder tree-path="0,1,1,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0766.mrg" sentence="80">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0767.mrg" sentence="22">
+<target tree-path="3,3,1,0" />
+<opinion tree-path="3,3,1,2,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0767.mrg" sentence="18">
+<target tree-path="2,3,1,0" />
+<opinion tree-path="2,3,1,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0767.mrg" sentence="21">
+<target tree-path="0,2,0" />
+<opinion tree-path="0,2,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0771.mrg" sentence="47">
+<target tree-path="2,2,1,1,0" />
+<opinion tree-path="2,2,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0773.mrg" sentence="27">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0778.mrg" sentence="18">
+<target tree-path="3,0" />
+<opinion tree-path="3,2,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0778.mrg" sentence="12">
+<target tree-path="1,1,2,1,1,0" />
+<opinion tree-path="1,1,2,1,1,1,1" />
+<holder tree-path="1,1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0783.mrg" sentence="12">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0783.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,2" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0787.mrg" sentence="4">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0795.mrg" sentence="14">
+<target tree-path="2,1,1,1,0" />
+<opinion tree-path="2,1,1,1,1,1" />
+<holder tree-path="2,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0795.mrg" sentence="15">
+<target tree-path="3,0" />
+<opinion tree-path="3,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/07/wsj_0795.mrg" sentence="26">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="5,0" />
+</annotation>
+<annotation mrg="wsj/08/wsj_0804.mrg" sentence="16">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/08/wsj_0804.mrg" sentence="27">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/08/wsj_0810.mrg" sentence="12">
+<target tree-path="5,0" />
+<opinion tree-path="5,1,1" />
+<holder tree-path="4" />
+</annotation>
+<annotation mrg="wsj/08/wsj_0819.mrg" sentence="15">
+<target tree-path="1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/08/wsj_0819.mrg" sentence="11">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+</annotation>
+<annotation mrg="wsj/08/wsj_0820.mrg" sentence="18">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0909.mrg" sentence="84">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,2,1" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0911.mrg" sentence="15">
+<target tree-path="5,1,0" />
+<opinion tree-path="5,1,1,1" />
+<holder tree-path="5,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0922.mrg" sentence="3">
+<target tree-path="1,1,1,1,1,0" />
+<opinion tree-path="0,0" />
+<holder tree-path="1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0931.mrg" sentence="6">
+<target tree-path="2,0,0" />
+<opinion tree-path="2,0,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0936.mrg" sentence="27">
+<target tree-path="4,1,0" />
+<opinion tree-path="4,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0936.mrg" sentence="42">
+<target tree-path="3,0" />
+<opinion tree-path="3,2,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0936.mrg" sentence="16">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+<holder tree-path="3,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0936.mrg" sentence="44">
+<target tree-path="4,0" />
+<opinion tree-path="4,1,1" />
+<holder tree-path="3,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0937.mrg" sentence="10">
+<target tree-path="6,2,0" />
+<opinion tree-path="6,2,1,1" />
+<holder tree-path="4" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0937.mrg" sentence="11">
+<target tree-path="6,1,2,1,1,1,1,1,1,0" />
+<opinion tree-path="6,1,2,1,1,1,1,1,1,1,1" />
+<holder tree-path="6,1,2,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0938.mrg" sentence="23">
+<target tree-path="1,1,0,1,1,2,0" />
+<opinion tree-path="1,1,0,1,1,2,1,1" />
+<holder tree-path="1,1,0,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0942.mrg" sentence="12">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0944.mrg" sentence="8">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0946.mrg" sentence="17">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0955.mrg" sentence="14">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0966.mrg" sentence="19">
+<target tree-path="1,1,1,1,4,0" />
+<opinion tree-path="1,1,1,1,4,1" />
+<holder tree-path="1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0972.mrg" sentence="37">
+<target tree-path="6,0" />
+<opinion tree-path="6,1" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0975.mrg" sentence="36">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0979.mrg" sentence="9">
+<target tree-path="4,1,1,1,0" />
+<opinion tree-path="4,1,1,1,1,1" />
+<holder tree-path="4,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0984.mrg" sentence="43">
+<target tree-path="2,1,2,1,1,1,0" />
+<opinion tree-path="3" />
+<holder tree-path="2,1,2,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0984.mrg" sentence="47">
+<target tree-path="1,1" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0987.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0990.mrg" sentence="9">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0990.mrg" sentence="12">
+<target tree-path="5,3,1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="5,3,1,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="5,3,1,1,1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0990.mrg" sentence="28">
+<target tree-path="0,1,1,3,1,0" />
+<opinion tree-path="0,1,1,3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0994.mrg" sentence="44">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0994.mrg" sentence="87">
+<target tree-path="3,1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="3,1,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0994.mrg" sentence="95">
+<target tree-path="3,2,0" />
+<opinion tree-path="3,2,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0999.mrg" sentence="17">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/09/wsj_0999.mrg" sentence="25">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1000.mrg" sentence="27">
+<target tree-path="1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1002.mrg" sentence="21">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1006.mrg" sentence="13">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1007.mrg" sentence="18">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1010.mrg" sentence="30">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1010.mrg" sentence="13">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1010.mrg" sentence="36">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1015.mrg" sentence="12">
+<target tree-path="1,1,1,1,2,1,1,1,1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1019.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1019.mrg" sentence="16">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1019.mrg" sentence="30">
+<target tree-path="4,0" />
+<opinion tree-path="4,1,1" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1022.mrg" sentence="37">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1037.mrg" sentence="64">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+<holder tree-path="3,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1037.mrg" sentence="26">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1041.mrg" sentence="10">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1043.mrg" sentence="2">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1047.mrg" sentence="22">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1053.mrg" sentence="4">
+<target tree-path="4,0" />
+<opinion tree-path="1" />
+<holder tree-path="5" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1057.mrg" sentence="27">
+<target tree-path="1,2,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1062.mrg" sentence="9">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1069.mrg" sentence="13">
+<target tree-path="0,3,0" />
+<opinion tree-path="0,3,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1091.mrg" sentence="6">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,0,1" />
+<holder tree-path="3,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1092.mrg" sentence="23">
+<target tree-path="0,1,1,1,0" />
+<opinion tree-path="0,1,1,1,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1092.mrg" sentence="1">
+<target tree-path="0,3,0" />
+<opinion tree-path="0,3,1,1" />
+<holder tree-path="0,2,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1092.mrg" sentence="18">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1092.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1094.mrg" sentence="33">
+<target tree-path="5,0" />
+<opinion tree-path="1" />
+<holder tree-path="4,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1094.mrg" sentence="34">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1099.mrg" sentence="24">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1099.mrg" sentence="63">
+<target tree-path="1,0,1,0" />
+<opinion tree-path="1,0,1,1,1" />
+<holder tree-path="1,0,0,0" />
+</annotation>
+<annotation mrg="wsj/10/wsj_1099.mrg" sentence="77">
+<target tree-path="1,1,2,0" />
+<opinion tree-path="1,1,2,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1103.mrg" sentence="15">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,2,1" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1103.mrg" sentence="16">
+<target tree-path="4,2,0" />
+<opinion tree-path="4,2,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1105.mrg" sentence="15">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1105.mrg" sentence="24">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1110.mrg" sentence="5">
+<target tree-path="0,2,0" />
+<opinion tree-path="0,2,1,1" />
+<holder tree-path="4,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1111.mrg" sentence="14">
+<target tree-path="3,1,1,0" />
+<opinion tree-path="3,1,1,1,1" />
+<holder tree-path="3,1,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1123.mrg" sentence="21">
+<target tree-path="1,3,1,1,1,1,3,1,1,0" />
+<opinion tree-path="1,3,1,1,1,1,3,1,1,1,1" />
+<holder tree-path="1,3,1,1,1,1,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1133.mrg" sentence="2">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1137.mrg" sentence="30">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1137.mrg" sentence="11">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1142.mrg" sentence="25">
+<target tree-path="1,1,1,3,0" />
+<opinion tree-path="1,1,1,3,1,2" />
+<holder tree-path="1,1,1,2" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1143.mrg" sentence="16">
+<target tree-path="0,1,1,1,1,1,1,0" />
+<opinion tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1145.mrg" sentence="12">
+<target tree-path="1,3,3,0" />
+<opinion tree-path="1,3,3,1,1" />
+<holder tree-path="1,3,2,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1149.mrg" sentence="4">
+<target tree-path="1,1" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1154.mrg" sentence="44">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1154.mrg" sentence="38">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1160.mrg" sentence="10">
+<target tree-path="0,4,0" />
+<opinion tree-path="0,4,1,2" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1174.mrg" sentence="12">
+<target tree-path="2,1,1,1,2,1,1" />
+<opinion tree-path="2,1,1,1,2,1,2,1" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1189.mrg" sentence="12">
+<target tree-path="2,2,2,1,1,0" />
+<opinion tree-path="2,2,2,1,1,1,1" />
+<holder tree-path="2,2,2,1,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1190.mrg" sentence="18">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/11/wsj_1191.mrg" sentence="1">
+<target tree-path="1,1,1,2,1,1,1,1,0" />
+<opinion tree-path="1,1,1,2,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1203.mrg" sentence="15">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1203.mrg" sentence="22">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1206.mrg" sentence="24">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,1,1" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1207.mrg" sentence="3">
+<target tree-path="1,1,1,1,3,0" />
+<opinion tree-path="1,1,1,1,3,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1208.mrg" sentence="60">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1217.mrg" sentence="15">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,3,1,1" />
+<holder tree-path="1,1,2,1" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1222.mrg" sentence="19">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1225.mrg" sentence="26">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1260.mrg" sentence="2">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1267.mrg" sentence="69">
+<target tree-path="3,1,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1,1" />
+<holder tree-path="3,1,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1270.mrg" sentence="43">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1270.mrg" sentence="27">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,1,1" />
+<holder tree-path="2,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1272.mrg" sentence="51">
+<target tree-path="0,1,1,1,0" />
+<opinion tree-path="0,0,0" />
+<holder tree-path="1,1,0,0" />
+<holder tree-path="1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1273.mrg" sentence="20">
+<target tree-path="2,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1279.mrg" sentence="5">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1" />
+<holder tree-path="3,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1284.mrg" sentence="45">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1287.mrg" sentence="8">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1293.mrg" sentence="8">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+</annotation>
+<annotation mrg="wsj/12/wsj_1299.mrg" sentence="11">
+<target tree-path="1,0,1,0" />
+<opinion tree-path="1,0,1,1,1" />
+<holder tree-path="1,0,0,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1302.mrg" sentence="91">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1302.mrg" sentence="2">
+<target tree-path="1,0,0" />
+<opinion tree-path="1,0,1" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1307.mrg" sentence="1">
+<target tree-path="1,1,1,1,1,1,3,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1310.mrg" sentence="3">
+<target tree-path="2,0" />
+<opinion tree-path="2,2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1316.mrg" sentence="2">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,2,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1317.mrg" sentence="44">
+<target tree-path="2,0" />
+<opinion tree-path="2,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1320.mrg" sentence="29">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1320.mrg" sentence="40">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1331.mrg" sentence="25">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1331.mrg" sentence="55">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,0,1" />
+<opinion tree-path="1,1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1334.mrg" sentence="16">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1334.mrg" sentence="16">
+<target tree-path="1,1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1365.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1366.mrg" sentence="8">
+<target tree-path="1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,2,1,1" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1377.mrg" sentence="17">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1377.mrg" sentence="47">
+<target tree-path="1,1,2,1,0" />
+<opinion tree-path="1,1,2,1,1,1" />
+<holder tree-path="1,1,2,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1379.mrg" sentence="7">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="1,2,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1381.mrg" sentence="1">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1394.mrg" sentence="64">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1394.mrg" sentence="93">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1396.mrg" sentence="8">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/13/wsj_1396.mrg" sentence="9">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1405.mrg" sentence="10">
+<target tree-path="0,2,2,1,1,1,1,0" />
+<opinion tree-path="0,2,2,1,1,1,1,1,1,1" />
+<holder tree-path="0,2,2,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1409.mrg" sentence="19">
+<target tree-path="3,2,0" />
+<opinion tree-path="3,2,1,1" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1415.mrg" sentence="0">
+<target tree-path="1,1,1,1,1,2,1,1,0" />
+<opinion tree-path="1,1,1,1,1,2,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1415.mrg" sentence="6">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1415.mrg" sentence="7">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1415.mrg" sentence="3">
+<target tree-path="4,2,1,1,0" />
+<opinion tree-path="4,2,1,1,1,1" />
+<holder tree-path="4,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1415.mrg" sentence="7">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1419.mrg" sentence="21">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1421.mrg" sentence="17">
+<target tree-path="3,1,1,1,1,1,1,1,2,0" />
+<opinion tree-path="3,1,1,1,1,1,1,1,2,1,1" />
+<holder tree-path="3,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1421.mrg" sentence="22">
+<target tree-path="4,1,1,1,1,1,1,0" />
+<opinion tree-path="4,1,1,1,1,1,1,1,1" />
+<holder tree-path="4,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1423.mrg" sentence="23">
+<target tree-path="4,1,0" />
+<opinion tree-path="4,1,1,1" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1440.mrg" sentence="16">
+<target tree-path="1,2,0" />
+<opinion tree-path="0,0" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1440.mrg" sentence="30">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1442.mrg" sentence="13">
+<target tree-path="0,1,1,2,1,0" />
+<opinion tree-path="0,1,1,2,1,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1442.mrg" sentence="48">
+<target tree-path="5,1,0" />
+<opinion tree-path="5,1,1,1" />
+<holder tree-path="5,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1442.mrg" sentence="32">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1442.mrg" sentence="45">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1446.mrg" sentence="36">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="1,3,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1447.mrg" sentence="16">
+<target tree-path="2,1,2,1,1,1,0" />
+<opinion tree-path="2,1,2,1,1,1,1,1,1" />
+<holder tree-path="2,1,2,1,1,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1453.mrg" sentence="6">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="5,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1455.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1457.mrg" sentence="5">
+<target tree-path="2,1,1,1,1,2,1,1,1,1,0" />
+<opinion tree-path="2,1,1,1,1,2,1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1457.mrg" sentence="68">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,2" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1474.mrg" sentence="37">
+<target tree-path="4,0" />
+<opinion tree-path="1" />
+<holder tree-path="5" />
+</annotation>
+<annotation mrg="wsj/14/wsj_1495.mrg" sentence="17">
+<target tree-path="1,1,1,1,1,1,0,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,0,1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,1,0,1,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1500.mrg" sentence="2">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1502.mrg" sentence="18">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1504.mrg" sentence="1">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,1,1" />
+<holder tree-path="2,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1505.mrg" sentence="7">
+<target tree-path="3,4,1,1,1,0" />
+<opinion tree-path="3,4,1,1,1,1,1" />
+<holder tree-path="3,4,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1506.mrg" sentence="24">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1515.mrg" sentence="29">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1525.mrg" sentence="45">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,2,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1525.mrg" sentence="46">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1550.mrg" sentence="32">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1554.mrg" sentence="12">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1560.mrg" sentence="14">
+<target tree-path="2,2,0" />
+<opinion tree-path="2,2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1564.mrg" sentence="45">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1566.mrg" sentence="7">
+<target tree-path="3,1,1,2,1,1,4,2,1,1,1,2,1,1,0" />
+<opinion tree-path="3,1,1,2,1,1,4,2,1,1,1,2,1,1,1,1" />
+<holder tree-path="3,1,1,2,1,1,4,2,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1569.mrg" sentence="52">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1569.mrg" sentence="77">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1572.mrg" sentence="35">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1578.mrg" sentence="23">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1588.mrg" sentence="5">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1596.mrg" sentence="26">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1596.mrg" sentence="15">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1598.mrg" sentence="4">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/15/wsj_1599.mrg" sentence="16">
+<target tree-path="2,0" />
+<opinion tree-path="2,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1601.mrg" sentence="12">
+<target tree-path="1,0" />
+<opinion tree-path="1,4,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1606.mrg" sentence="9">
+<target tree-path="3,3,1,1,1,1,1,1,1,0" />
+<opinion tree-path="3,3,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="3,3,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1617.mrg" sentence="37">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1618.mrg" sentence="18">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,0,1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1619.mrg" sentence="21">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1619.mrg" sentence="27">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1623.mrg" sentence="47">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1625.mrg" sentence="21">
+<target tree-path="0,4,1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1625.mrg" sentence="58">
+<target tree-path="0,0,1,0" />
+<opinion tree-path="0,0,1,1,1" />
+<holder tree-path="0,0,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1626.mrg" sentence="3">
+<target tree-path="1,2,1,1,0" />
+<opinion tree-path="1,2,1,1,1,1" />
+<holder tree-path="1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1629.mrg" sentence="19">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1634.mrg" sentence="113">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,2,1,0" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1634.mrg" sentence="6">
+<target tree-path="2,1,1,2,1,4,1,0" />
+<opinion tree-path="2,1,1,2,1,4,1,1,1" />
+<holder tree-path="1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1634.mrg" sentence="92">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,2" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1634.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1647.mrg" sentence="22">
+<target tree-path="4,0" />
+<opinion tree-path="1" />
+<holder tree-path="5" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1657.mrg" sentence="3">
+<target tree-path="1,1,1,4,2,1,2,4,1,1,0" />
+<opinion tree-path="1,1,1,4,2,1,2,4,1,1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1659.mrg" sentence="11">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,1,1" />
+<holder tree-path="1,3,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1673.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1682.mrg" sentence="16">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1688.mrg" sentence="29">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1689.mrg" sentence="9">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1690.mrg" sentence="0">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1690.mrg" sentence="8">
+<target tree-path="1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1691.mrg" sentence="47">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1694.mrg" sentence="18">
+<target tree-path="4,1,1,1,1,1,1,1,1,1,1,1,1,1,2,0" />
+<opinion tree-path="4,1,1,1,1,1,1,1,1,1,0" />
+<holder tree-path="4,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1695.mrg" sentence="9">
+<target tree-path="2,1,6,3,1,1,1,0" />
+<opinion tree-path="2,1,6,0,1,1,1,1,2,1" />
+<holder tree-path="2,1,6,0,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1695.mrg" sentence="9">
+<target tree-path="2,1,6,3,1,1,1,0" />
+<opinion tree-path="2,1,6,3,1,1,1,1,2,1" />
+<holder tree-path="2,1,6,3,0" />
+</annotation>
+<annotation mrg="wsj/16/wsj_1698.mrg" sentence="8">
+<target tree-path="1,1,3,2,1,0" />
+<opinion tree-path="1,1,3,2,1,1,1" />
+<holder tree-path="1,1,3,2,0,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1700.mrg" sentence="19">
+<target tree-path="1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1706.mrg" sentence="12">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1723.mrg" sentence="10">
+<target tree-path="3,0" />
+<opinion tree-path="3,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1725.mrg" sentence="3">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1735.mrg" sentence="2">
+<target tree-path="1,1,3,1,1,0" />
+<opinion tree-path="1,1,3,1,1,1,1" />
+<holder tree-path="1,1,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1735.mrg" sentence="14">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1743.mrg" sentence="47">
+<target tree-path="2,1,2,1,1,2,2,1,1,0" />
+<opinion tree-path="2,1,2,1,1,2,2,1,1,2,1,1" />
+<holder tree-path="2,1,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1760.mrg" sentence="14">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1778.mrg" sentence="94">
+<target tree-path="1,1,2,1,1,0" />
+<opinion tree-path="1,1,2,1,1,1" />
+<holder tree-path="1,1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1780.mrg" sentence="22">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1789.mrg" sentence="8">
+<target tree-path="1,5,1,0" />
+<opinion tree-path="1,5,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1791.mrg" sentence="8">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1792.mrg" sentence="13">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1793.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1797.mrg" sentence="17">
+<target tree-path="2,2,1,0" />
+<opinion tree-path="1" />
+<holder tree-path="2,2,0" />
+</annotation>
+<annotation mrg="wsj/17/wsj_1797.mrg" sentence="20">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1800.mrg" sentence="19">
+<target tree-path="3,3,1,0" />
+<opinion tree-path="3,2,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1802.mrg" sentence="17">
+<target tree-path="3,0" />
+<opinion tree-path="0" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1819.mrg" sentence="33">
+<target tree-path="2,2,2,1,0" />
+<opinion tree-path="2,2,2,1,1,1" />
+<holder tree-path="2,2,2,0,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1826.mrg" sentence="20">
+<target tree-path="1,1,1,1,1,2,1,1,0" />
+<opinion tree-path="1,1,1,1,1,2,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1829.mrg" sentence="4">
+<target tree-path="1,1,1,1,1,1,1,0" />
+<opinion tree-path="6" />
+<holder tree-path="1,1,1,1,1,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1847.mrg" sentence="38">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1853.mrg" sentence="9">
+<target tree-path="2,1,1,3,0" />
+<opinion tree-path="2,1,1,3,1,1" />
+<holder tree-path="2,1,1,2,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1856.mrg" sentence="65">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1865.mrg" sentence="11">
+<target tree-path="1,2,1,1,0,0" />
+<opinion tree-path="1,2,1,1,0,1,1" />
+<holder tree-path="1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1875.mrg" sentence="120">
+<target tree-path="1,0,0" />
+<opinion tree-path="1,0,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1879.mrg" sentence="3">
+<target tree-path="1,6,1,2,1,1,0" />
+<opinion tree-path="1,6,1,2,1,1,1,1" />
+<holder tree-path="1,6,1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1881.mrg" sentence="21">
+<target tree-path="1,1,3,2,1,1,0" />
+<opinion tree-path="1,1,3,2,1,1,1,1" />
+<holder tree-path="1,1,3,2,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/18/wsj_1881.mrg" sentence="39">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1901.mrg" sentence="3">
+<target tree-path="1,4,1,0" />
+<opinion tree-path="1,4,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1920.mrg" sentence="3">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1924.mrg" sentence="24">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1939.mrg" sentence="14">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="1,1,1,2,1,1" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1939.mrg" sentence="4">
+<target tree-path="3,1,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1,1" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1952.mrg" sentence="6">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1957.mrg" sentence="13">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/19/wsj_1986.mrg" sentence="54">
+<target tree-path="6,1,0,0" />
+<opinion tree-path="6,1,0,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2010.mrg" sentence="11">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2019.mrg" sentence="19">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2042.mrg" sentence="1">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1" />
+<holder tree-path="3,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2054.mrg" sentence="10">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,2,1" />
+<holder tree-path="0,0" />
+<holder tree-path="1,2,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2054.mrg" sentence="19">
+<target tree-path="1,1,2,1,0" />
+<opinion tree-path="1,1,2,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2057.mrg" sentence="18">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2057.mrg" sentence="56">
+<target tree-path="1,2,2,0" />
+<opinion tree-path="1,2,2,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2057.mrg" sentence="36">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2057.mrg" sentence="62">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2064.mrg" sentence="13">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2064.mrg" sentence="17">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2064.mrg" sentence="26">
+<target tree-path="0,1,1,0" />
+<opinion tree-path="0,1,1,1,1" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2065.mrg" sentence="0">
+<target tree-path="1,3,1,0" />
+<opinion tree-path="1,3,1,2,1,1" />
+<holder tree-path="1,3,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2069.mrg" sentence="4">
+<target tree-path="1,1,1,1,1,2,1,1,0" />
+<opinion tree-path="1,1,1,1,1,2,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,2,1,0,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2075.mrg" sentence="7">
+<target tree-path="2,1,3,1,0" />
+<opinion tree-path="2,1,3,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/20/wsj_2086.mrg" sentence="38">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2104.mrg" sentence="30">
+<target tree-path="3,2,2,1,1,1,0" />
+<opinion tree-path="3,2,2,1,1,1,1,0,1" />
+<holder tree-path="3,2,1,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2113.mrg" sentence="34">
+<target tree-path="3,2,1,0" />
+<opinion tree-path="3,1,0" />
+<holder tree-path="0,1,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2113.mrg" sentence="73">
+<target tree-path="1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2113.mrg" sentence="140">
+<target tree-path="1,1,2,0" />
+<opinion tree-path="1,1,2,1,1" />
+<holder tree-path="1,1,2,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2136.mrg" sentence="7">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2140.mrg" sentence="3">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2145.mrg" sentence="7">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+<holder tree-path="3,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2149.mrg" sentence="2">
+<target tree-path="1,3,0" />
+<opinion tree-path="1,3,4,1" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2149.mrg" sentence="41">
+<target tree-path="0,1,0" />
+<opinion tree-path="0,1,1,1" />
+<holder tree-path="0,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2154.mrg" sentence="16">
+<target tree-path="2,1,1,2,0" />
+<opinion tree-path="2,1,1,2,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2155.mrg" sentence="21">
+<target tree-path="3,1,1,1,0" />
+<opinion tree-path="3,1,1,1,1,1" />
+<holder tree-path="3,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2155.mrg" sentence="22">
+<target tree-path="1,1,1,1,1,4,1,0" />
+<opinion tree-path="1,1,1,1,1,4,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2161.mrg" sentence="66">
+<target tree-path="3,3,1,0" />
+<opinion tree-path="3,3,1,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2161.mrg" sentence="67">
+<target tree-path="1,1,1,3,1,0" />
+<opinion tree-path="1,1,1,3,1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2167.mrg" sentence="10">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="3,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2169.mrg" sentence="16">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2172.mrg" sentence="20">
+<target tree-path="1,1,0" />
+<opinion tree-path="1,1,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2172.mrg" sentence="30">
+<target tree-path="1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1" />
+<holder tree-path="1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/21/wsj_2172.mrg" sentence="30">
+<target tree-path="1,1,1,1,1,1,0,2,1,1,1,1,3,1,2,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,0,2,1,1,1,1,3,1,2,1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2207.mrg" sentence="5">
+<target tree-path="2,1,1,1,1,1,0" />
+<opinion tree-path="2,1,1,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2207.mrg" sentence="19">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2213.mrg" sentence="1">
+<target tree-path="3,3,1,1,0" />
+<opinion tree-path="3,3,1,1,1,1" />
+<holder tree-path="3,3,1,0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2213.mrg" sentence="1">
+<target tree-path="3,3,3,1,0" />
+<opinion tree-path="3,3,3,1,1,1" />
+<holder tree-path="3,3,3,0,0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2223.mrg" sentence="41">
+<target tree-path="2,1,0" />
+<opinion tree-path="2,1,2,2" />
+<holder tree-path="2,0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2227.mrg" sentence="2">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2229.mrg" sentence="6">
+<target tree-path="2,0" />
+<opinion tree-path="2,1" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2230.mrg" sentence="24">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2232.mrg" sentence="84">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2278.mrg" sentence="6">
+<target tree-path="4,3,0" />
+<opinion tree-path="4,3,1,1,1,1" />
+<holder tree-path="3" />
+</annotation>
+<annotation mrg="wsj/22/wsj_2281.mrg" sentence="20">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2300.mrg" sentence="54">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2300.mrg" sentence="82">
+<target tree-path="0,2,1,1,1,1,1,1,1,0" />
+<opinion tree-path="0,2,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="0,2,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2306.mrg" sentence="28">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2314.mrg" sentence="15">
+<target tree-path="3,1,1,1" />
+<opinion tree-path="3,1,1,2,1" />
+<holder tree-path="3,0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2314.mrg" sentence="36">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2314.mrg" sentence="44">
+<target tree-path="2,2,1,0" />
+<opinion tree-path="2,2,1,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2321.mrg" sentence="14">
+<target tree-path="3,0" />
+<opinion tree-path="3,2,2" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2326.mrg" sentence="1">
+<target tree-path="2,1,1,1,1,0" />
+<opinion tree-path="2,1,1,1,1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2339.mrg" sentence="18">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2354.mrg" sentence="8">
+<target tree-path="1,0" />
+<opinion tree-path="1,3,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2367.mrg" sentence="13">
+<target tree-path="1,1,0,0" />
+<opinion tree-path="0,1" />
+<holder tree-path="1,1,1" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2367.mrg" sentence="17">
+<target tree-path="1,3,1,1,0" />
+<opinion tree-path="1,3,1,1,1,1" />
+<holder tree-path="1,3,1,0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2379.mrg" sentence="12">
+<target tree-path="1,1,1,1,1,1,1,1,0" />
+<opinion tree-path="1,1,1,1,1,1,1,1,1,1" />
+<holder tree-path="1,1,1,1,1,1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2384.mrg" sentence="49">
+<target tree-path="5,1,0" />
+<opinion tree-path="5,1,1,1" />
+<holder tree-path="5,0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2386.mrg" sentence="23">
+<target tree-path="4,0" />
+<opinion tree-path="4,2,1" />
+<holder tree-path="3,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2387.mrg" sentence="31">
+<target tree-path="1,1,2,1,2,1,1,0" />
+<opinion tree-path="1,1,2,1,2,1,1,1,1" />
+<holder tree-path="1,1,2,1,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2387.mrg" sentence="48">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+<holder tree-path="3,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2387.mrg" sentence="45">
+<target tree-path="4,2,0" />
+<opinion tree-path="4,2,1,1" />
+<holder tree-path="4,0,0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2397.mrg" sentence="28">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="1,1,1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/23/wsj_2397.mrg" sentence="47">
+<target tree-path="3,1,0" />
+<opinion tree-path="3,1,1,1" />
+<holder tree-path="2" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2402.mrg" sentence="6">
+<target tree-path="1,2,2,1,1,0" />
+<opinion tree-path="1,2,2,1,1,1,1" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2406.mrg" sentence="0">
+<target tree-path="1,3,1,1,1,0" />
+<opinion tree-path="1,3,1,1,1,3,1,1" />
+<holder tree-path="1,3,1,1,1,2,1" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2407.mrg" sentence="8">
+<target tree-path="1,0" />
+<opinion tree-path="1,2,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2412.mrg" sentence="14">
+<target tree-path="1,1,1,0" />
+<opinion tree-path="0" />
+<holder tree-path="1,1,0,0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2413.mrg" sentence="14">
+<target tree-path="0,1,1,1,0" />
+<opinion tree-path="0,1,1,1,2,1" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2415.mrg" sentence="39">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,3,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2415.mrg" sentence="39">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,0,1" />
+<opinion tree-path="1,1,3,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2415.mrg" sentence="25">
+<target tree-path="3,0" />
+<opinion tree-path="3,1,1" />
+<holder tree-path="1,0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2415.mrg" sentence="48">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2417.mrg" sentence="12">
+<target tree-path="1,0" />
+<opinion tree-path="1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2443.mrg" sentence="58">
+<target tree-path="1,1,2,0" />
+<opinion tree-path="1,1,2,1,1" />
+<holder tree-path="1,0,0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2449.mrg" sentence="1">
+<target tree-path="1,0" />
+<opinion tree-path="1,1,1" />
+<holder tree-path="0" />
+</annotation>
+<annotation mrg="wsj/24/wsj_2449.mrg" sentence="2">
+<target tree-path="2,0" />
+<opinion tree-path="2,1,1" />
+<holder tree-path="0,0" />
+</annotation>
+</annotations>
